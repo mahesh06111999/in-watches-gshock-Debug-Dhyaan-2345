@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+header {
+  width: 100%;
+  max-width: 1320px;
+  height: auto;
+  margin: auto;
+  font-family: "Inter", sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0px 30px 0px;
+  > div:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 45px;
+    font-size: 14.77px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: left;
+  }
+  > div:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 14.53px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: left;
+  }
+  button {
+    border: 1px solid #05073c;
+    width: 83.31px;
+    height: 44px;
+    padding: 12px 20.8px 12px 21px;
+    border-radius: 200px;
+    background-color: #ffffff;
+  }
+}
+#hero {
+  background-image: url("./SVG\ \(1\).svg");
+  width: 1920px;
+  height: 573px;
+}
+#hero {
+  width: 100%;
+  max-width: 1320px;
+  margin: auto;
+  background-color: white;
+  > #navlist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 30px;
+    width: 1270px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 12px;
+    position: relative;
+    top: 30px;
+    left: 15px;
+  }
+  .box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .mark {
+    height: 50px;
+    width: 50px;
+    background-color: #fef8f4;
+  }
+  button {
+    width: 136.95px;
+    height: 60px;
+    padding: 20px 30.8px 20px 31px;
+    border-radius: 12px;
+    background-color: #eb662c;
+    border: 1px solid #eb662c;
+    color: white;
+
+    font-size: 14.65px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    margin-right: 10px;
+  }
+}
+#part2 {
+  background-color: #eb662c;
+  margin-top: 50px;
+  width: 1290px;
+  height: 500px;
+  border-radius: 12px;
+  margin-left: 30px;
+}
+#special {
+  margin-top: 115px;
+  margin-left: 35px;
+  font-size: 29.77px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: left;
+}
+.spccards {
+  display: flex;
+  gap: 20px;
+  width: 280px;
+  .p1 {
+    color: #eb662c;
+    font-size: 14px;
+  }
+  .p2 {
+    font-size: 14px;
+
+    font-size: 14.88px;
+    font-weight: 500;
+    line-height: 22.5px;
+    text-align: left;
+  }
+}
+#spof1 {
+  display: flex;
+  gap: 48px;
+  margin-left: 35px;
+  margin-bottom: 105px;
+}
