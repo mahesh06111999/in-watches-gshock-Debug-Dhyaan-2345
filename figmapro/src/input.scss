@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shojumaru&family=ZCOOL+KuaiLe&display=swap');
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
 
 header {
   width: 100%;
@@ -629,4 +635,156 @@ footer {
 
     }
   }
+}// *Shreya Part* 
+.container{
+  width:1320px;
+  border:2px solid transparent;
+  margin:auto;
+  .content{
+    width: auto;
+    margin-left: 15px;
+    margin-top: 5px;
+    gap:893.43px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right:40.8px;
+    h2{
+    font-family: Inter;
+    text-align: left;
+    }
+    p{
+      padding-top:16.88px;
+      font-family: Inter;
+    }
+  }
+  .cards{
+    display: flex;
+    gap:30px;
+    padding:15px 15px;
+    margin-top:45px;
+    font-family: Inter;
+  }
+}
+.orange-box{
+  width:1320px;
+  margin:auto;
+  margin-top:105px;
+  height:162px;
+  border:2px solid transparent;
+  border-radius:12px;
+  background-color: #EB662B;
+  .text{
+    display:flex;
+    justify-content: space-between;
+    h2{
+    margin-top:66px;
+    margin-left:50px;
+    color:white;
+    font-family: Inter;
+    }
+    button{
+      margin-right:50px;
+      margin-top:50px;
+      padding:23px 60.8px 25px 36px;
+      border-radius:12px;
+      color:#eb662b;
+      font-family: Inter;
+      border:none;
+      font-weight: bolder;
+    }
+  }
+}
+.container2{
+  width:1320px;
+  border:2px solid transparent;
+  margin:auto;
+  margin-top:115px;
+  .content2{
+    width: auto;
+    margin-left: 15px;
+    margin-top: 5px;
+    gap:893.43px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right:40.8px;
+    h2{
+    font-family: Inter;
+    text-align: left;
+    }
+    p{
+      padding-top:16.88px;
+      font-family: Inter;
+    }
+  }
+}
+.container3{
+   display:grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-areas: "a1 a2 a3"
+                        "a4 a5 a6"
+                        "a7 a8 a9";
+  .content3{
+    display:flex;
+    gap:30px;
+    padding:15px;
+    .texts{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-family: Inter;
+      span{
+        font-weight: bolder;
+      }
+    }
+    }
+}
+.container4{
+border:2px solid transparent;
+width: 1920px;
+height: 850.84px;
+margin:auto;
+margin-top:105px;
+background-image: url(/in-watches-gshock-Debug-Dhyaan-2345/figmapro/src/section.png);
+
+.content4{
+  width: 1320px;
+  height: 610.84px;
+  border:2px solid transparent;
+  margin-top: 120px;
+  margin-left:300px;
+  padding: 0px 345px 0px 345px;
+  font-family: Inter;
+  text-align: center;
+}
+
+.all1{
+  margin-top:70px;
+  position: relative;
+ img:nth-of-type(1){
+  width:46px;
+  height:46px;
+  position: absolute;
+  top:-15px;
+  left:255px;
+ }
+}
+.para{
+  margin-top:60px;
+  color:#eb662b;
+}
+.para1{
+  margin-top:25px;
+  font-family: Inter;
+  font-size: 20.53px;
+  font-weight: 500;
+  line-height: 38.5px;
+}
+.para2{
+  margin-top:28.5px;
+}
+.para3{
+  margin-top:2.6px;
+}
 }
