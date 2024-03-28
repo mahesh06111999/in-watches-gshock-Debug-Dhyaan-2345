@@ -134,4 +134,168 @@ header {
   gap: 48px;
   margin-left: 35px;
   margin-bottom: 105px;
+}
+
+body > main:nth-of-type(3) {
+  max-width: 1920px;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+}
+body > main:nth-of-type(3) .banner {
+  background-image: url("./image.png");
+  max-width: 1920px;
+  height: 721.25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  background-size: cover;
+}
+body > main:nth-of-type(3) .banner h2 {
+  margin-bottom: 24px;
+  font-size: 69.45px;
+  font-weight: 700;
+  line-height: 105px;
+  text-align: center;
+  color: #ffffff;
+}
+body > main:nth-of-type(3) .banner p {
+  font-size: 14.53px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: center;
+  color: #ffffff;
+  width: 395px;
+}
+body > main:nth-of-type(3) .tours {
+  max-width: 1320px;
+  margin: 120px auto 115px auto;
+}
+body > main:nth-of-type(3) .tours h2 {
+  font-size: 29.3px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: center;
+  color: #05073c;
+  margin: 0;
+}
+body > main:nth-of-type(3) .tours .reason {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+body > main:nth-of-type(3) .tours .reason div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 260px;
+  padding-bottom: 65px;
+}
+body > main:nth-of-type(3) .tours .reason div img {
+  display: block;
+  margin: 100px auto 0px auto;
+}
+body > main:nth-of-type(3) .tours .reason div h3 {
+  font-size: 17.72px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: center;
+  margin: 30px auto 14px auto;
+}
+body > main:nth-of-type(3) .tours .reason div p {
+  font-size: 14.88px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: center;
+  color: #05073c;
+  margin: 0;
+}
+body > main:nth-of-type(3) .tours .reason div:nth-of-type(2) p {
+  width: 256.95px;
+}
+body > main:nth-of-type(3) .articles {
+  max-width: 1320px;
+  margin: 0px auto 255px auto;
+  padding: 5px 15px;
+  position: relative;
+  font-family: "Inter";
+}
+body > main:nth-of-type(3) .articles h2 {
+  margin: 0 0 45px 0;
+  font-size: 29.65px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: left;
+  color: #05073c;
+}
+body > main:nth-of-type(3) .articles .see {
+  margin: 0;
+  position: absolute;
+  font-size: 14.3px;
+  font-weight: 400;
+  line-height: 28.13px;
+  right: 40.8px;
+  top: 21.88px;
+  color: #05073c;
+}
+body > main:nth-of-type(3) .articles div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body > main:nth-of-type(3) .articles div div {
+  display: flex;
+  flex-direction: column;
+  width: 410px;
+  gap: 0px;
+  height: -moz-max-content;
+  height: max-content;
+}
+body > main:nth-of-type(3) .articles div div div {
+  width: 409.98px;
+  height: 299.98px;
+  border-radius: 12px;
+  margin-bottom: 33px;
+}
+body > main:nth-of-type(3) .articles div div p {
+  font-size: 13.89px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: left;
+  color: #05073c;
+  margin: 0;
+}
+body > main:nth-of-type(3) .articles div div span {
+  margin: 0px 0px 0px 20.8px;
+  color: #05073c;
+}
+body > main:nth-of-type(3) .articles div div p:nth-of-type(2) {
+  display: block;
+  margin-top: 15.1px;
+  font-size: 17.3px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+  width: 366.92px;
+}
+body > main:nth-of-type(3) .articles div div:nth-of-type(1) div {
+  background-image: url("./image1.png");
+}
+body > main:nth-of-type(3) .articles div div:nth-of-type(1) p:nth-of-type(2) {
+  width: 366.92px;
+}
+body > main:nth-of-type(3) .articles div div:nth-of-type(2) div {
+  background-image: url("./image2.png");
+}
+body > main:nth-of-type(3) .articles div div:nth-of-type(2) p:nth-of-type(2) {
+  width: 378px;
+}
+body > main:nth-of-type(3) .articles div div:nth-of-type(3) div {
+  background-image: url("./image3.png");
+}
+body > main:nth-of-type(3) .articles div div:nth-of-type(3) p:nth-of-type(2) {
+  width: 387px;
 }/*# sourceMappingURL=input.css.map */
