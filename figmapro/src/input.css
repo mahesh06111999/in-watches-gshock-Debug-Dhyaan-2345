@@ -134,4 +134,82 @@ header {
   gap: 48px;
   margin-left: 35px;
   margin-bottom: 105px;
+}
+
+.footer {
+  width: 1320px;
+  height: 115px;
+  top: 6868.3px;
+  left: 300px;
+  padding: 0px 15px 0px 15px;
+  gap: 0px;
+  opacity: 0px;
+}
+.footer .foottext {
+  margin: 0px;
+  gap: 0px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: center;
+  justify-content: center;
+  font-family: Inter;
+}
+.footer .swipper {
+  margin: 15px;
+  display: flex;
+  width: 1290px;
+  height: 30px;
+  top: 85px;
+  left: 15px;
+  gap: 100px;
+  padding: 0px 45px 0px 45px;
+  opacity: 0px;
+  justify-content: center;
+}
+.footer .swipper > img {
+  width: 100px;
+  height: 30px;
+  padding: 4.75px 0px 4.75px 0px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+footer {
+  width: 1920px;
+  height: 400.25px;
+  top: 200.3px;
+  padding: 0px;
+  gap: 0px;
+  opacity: 0px;
+  background: rgb(5, 7, 60);
+}
+footer .container {
+  width: 1320px;
+  height: 655.13px;
+  left: 300px;
+  top: 10px;
+  padding: 0px;
+  gap: 0px;
+  opacity: 0px;
+}
+footer .container .footer-info {
+  padding: 94.31;
+  width: 1290px;
+  height: 185.13px;
+  left: 15px;
+  gap: 0px;
+  border: 0px 0px 1px 0px;
+  opacity: 0px;
+  background-image: url("./bg.svg");
+}
+footer .container .footer-info span {
+  background: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 19.69px;
+  font-weight: 500;
+  line-height: 37.5px;
+  text-align: left;
+  justify-content: space-between;
+  gap: 100px;
 }/*# sourceMappingURL=input.css.map */
