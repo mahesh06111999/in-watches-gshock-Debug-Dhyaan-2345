@@ -112,6 +112,18 @@
     hr {
       display: none;
     }
+    .custom-checkbox .form-check-input {
+      width: 20px;
+      height: 20px;
+      margin-top: 3px;
+      margin-right: 10px;
+    }
+    .custom-radio .form-check-input {
+      width: 20px;
+      height: 20px;
+      margin-top: 5px;
+      margin-right: 10px;
+    }
 
     /* Show .dropdown and hr on screens with width <= 767px */
     @media screen and (max-width: 767px) {
@@ -166,11 +178,167 @@
     <header>
       <!-- shreya -->
     </header>
-    <div class="container-fluid d-flex">
-      <div class="row m-3 border-end" style="width: 20%">
+    <div class="container-fluid d-flex lh-lg class="small"">
+      <div class="row m-3 p-2 border-end" style="width: 20%">
         <div>
           <!-- mahesh -->
+          <p class="fw-medium">Sort</p>
+          <form action="#" class="small">
+            <div class="form-check custom-radio">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="Newest"
+              />
+              <label class="form-check-label" for="Newest"> Newest </label>
+            </div>
+            <!--  -->
+            <div class="form-check custom-radio">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="phl"
+              />
+              <label class="form-check-label" for="phl"> Price:High-Low </label>
+            </div>
+            <!--  -->
+            <div class="form-check custom-radio">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="plh"
+              />
+              <label class="form-check-label" for="plh"> Price:Low-High </label>
+            </div>
+            <!--  -->
+            <div class="form-check custom-radio">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="whl"
+              />
+              <label class="form-check-label" for="whl">
+                Weight:Heavy-Light
+              </label>
+            </div>
+            <!--  -->
+            <div class="form-check custom-radio">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="wlh"
+              />
+              <label class="form-check-label" for="wlh">
+                Weight:Light-Heavy
+              </label>
+            </div>
+          </form>
+          <!-- second form -->
+          <p class="border-top mt-3 pt-3 fw-medium">Price Range</p>
+          <form action="#" class="small">
+            <!-- checkboxes -->
+            <div class="form-check custom-checkbox">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="checkboxExample1"
+              />
+              <label class="form-check-label" for="checkboxExample1">
+                Below &#8377;5000
+              </label>
+            </div>
+
+            <div class="form-check custom-checkbox">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="checkboxExample2"
+              />
+              <label class="form-check-label" for="checkboxExample2">
+                &#8377;5000 - &#8377;10000
+              </label>
+            </div>
+
+            <div class="form-check custom-checkbox">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="checkboxExample3"
+              />
+              <label class="form-check-label" for="checkboxExample3">
+                &#8377;10000 - &#8377;20000
+              </label>
+            </div>
+
+            <div class="form-check custom-checkbox">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="checkboxExample4"
+              />
+              <label class="form-check-label" for="checkboxExample4">
+                &#8377;20000 - &#8377;30000
+              </label>
+            </div>
+
+            <div class="form-check custom-checkbox">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="checkboxExample5"
+              />
+              <label class="form-check-label" for="checkboxExample5">
+                &#8377;30000 - &#8377;40000
+              </label>
+            </div>
+
+            <div class="form-check custom-checkbox">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="checkboxExample6"
+              />
+              <label class="form-check-label" for="checkboxExample6">
+                &#8377;40000 - &#8377;50000
+              </label>
+            </div>
+
+            <div class="form-check custom-checkbox mb-3">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="checkboxExample7"
+              />
+              <label class="form-check-label" for="checkboxExample7">
+                Above &#8377;50000
+              </label>
+            </div>
+
+            <!-- checkbox end -->
+          </form>
+          <!-- displaytype -->
+          
+          <div class="border-top pt-3">
+            <p class="fw-medium">Display Type</p>
+            <button type="button" class="btn btn-light btn-md" style="font-size: 15px;">Digital</button>
+            <button type="button" class="btn btn-light btn-md">Analog</button>
+          </div>
+          <button type="button" class="btn btn-light btn-md mt-3 mb-4">Digital and Analog</button>
         </div>
+        <p class="border-top pt-3 fw-medium">Functions</p>
+        <!-- mahesh section ends -->
       </div>
 
       <div class="m-3" style="width: 80%">
