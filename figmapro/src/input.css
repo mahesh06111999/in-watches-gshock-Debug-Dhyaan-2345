@@ -472,7 +472,9 @@ body > main:nth-of-type(3) .articles div div:nth-of-type(3) p:nth-of-type(2) {
 }
 
 .footer {
-  width: 1320px;
+  width: 100%;
+  max-width: 1320px;
+  margin: auto;
   height: 115px;
   top: 6868.3px;
   left: 300px;
@@ -481,8 +483,9 @@ body > main:nth-of-type(3) .articles div div:nth-of-type(3) p:nth-of-type(2) {
   opacity: 0px;
 }
 .footer .foottext {
-  margin: 0px;
-  gap: 0px;
+  width: 100%;
+  max-width: 1320px;
+  margin: auto;
   font-size: 30px;
   font-weight: 700;
   line-height: 45px;
@@ -511,13 +514,21 @@ body > main:nth-of-type(3) .articles div div:nth-of-type(3) p:nth-of-type(2) {
 }
 
 footer {
-  width: 1920px;
+  width: 100%;
+  max-width: 1320px;
+  margin: auto;
   height: 400.25px;
   top: 200.3px;
   padding: 0px;
   gap: 0px;
   opacity: 0px;
   background: rgb(5, 7, 60);
+  color: #fef8f4;
+  background-image: url("./bg.svg");
+}
+footer .cols {
+  display: flex;
+  flex-direction: column;
 }
 footer .container {
   width: 1320px;
@@ -525,12 +536,12 @@ footer .container {
   left: 300px;
   top: 10px;
   padding: 0px;
-  gap: 0px;
-  opacity: 0px;
+  display: flex;
 }
 footer .container .footer-info {
+  width: 100%;
+  max-width: 1320px;
   padding: 94.31;
-  width: 1290px;
   height: 185.13px;
   left: 15px;
   gap: 0px;
@@ -539,7 +550,7 @@ footer .container .footer-info {
   background-image: url("./bg.svg");
 }
 footer .container .footer-info span {
-  background: rgb(255, 255, 255);
+  color: #fef8f4;
   font-family: Inter;
   font-size: 19.69px;
   font-weight: 500;
