@@ -24,8 +24,12 @@
     />
   </head>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+    @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+    .contains {
+      width: 100%;
+      max-width: 1600px;
+      margin: auto;
+    }
     /* Footer is here */
     #container-fluid {
       background-color: rgb(240, 238, 238);
@@ -40,7 +44,7 @@
       grid-template-columns: repeat(4, 1fr);
       gap: 30px;
       padding: 20px;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", sans-serif;
       font-weight: 500;
       font-style: normal;
       margin: 20px 0 0 50px;
@@ -65,7 +69,7 @@
       gap: 30px;
       font-size: 14px;
 
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", sans-serif;
       font-weight: 500;
       font-style: normal;
       cursor: pointer;
@@ -80,7 +84,7 @@
     #container-fluid > div:nth-child(3) {
       display: flex;
       gap: 30px;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", sans-serif;
       font-weight: 500;
       font-style: normal;
       cursor: pointer;
@@ -191,2231 +195,2671 @@
     <header>
       <!-- shreya -->
     </header>
-    <div class="container-fluid d-flex lh-lg">
-      <div class="row m-3 p-2 border-end" style="width: 20%">
-        <div>
-          <!-- mahesh -->
-          <p class="fw-bold">Sort</p>
-          <form action="#" class="small">
-            <div class="form-check custom-radio">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="flexRadioDefault"
-                id="Newest"
-              />
-              <label class="form-check-label" for="Newest"> Newest </label>
-            </div>
-            <!--  -->
-            <div class="form-check custom-radio">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="flexRadioDefault"
-                id="phl"
-              />
-              <label class="form-check-label" for="phl"> Price:High-Low </label>
-            </div>
-            <!--  -->
-            <div class="form-check custom-radio">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="flexRadioDefault"
-                id="plh"
-              />
-              <label class="form-check-label" for="plh"> Price:Low-High </label>
-            </div>
-            <!--  -->
-            <div class="form-check custom-radio">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="flexRadioDefault"
-                id="whl"
-              />
-              <label class="form-check-label" for="whl">
-                Weight:Heavy-Light
-              </label>
-            </div>
-            <!--  -->
-            <div class="form-check custom-radio">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="flexRadioDefault"
-                id="wlh"
-              />
-              <label class="form-check-label" for="wlh">
-                Weight:Light-Heavy
-              </label>
-            </div>
-          </form>
-          <!-- second form -->
-          <p class="border-top mt-3 pt-3 fw-bold">Price Range</p>
-          <form action="#" class="small">
-            <!-- checkboxes -->
-            <div class="form-check custom-checkbox">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="checkboxExample1"
-              />
-              <label class="form-check-label" for="checkboxExample1">
-                Below &#8377;5000
-              </label>
-            </div>
+    <div class="contains">
+      <div class="container-fluid d-flex lh-lg h-600">
+        <div class="row m-3 p-2 border-end" style="width: 20%">
+          <div>
+            <!-- mahesh -->
+            <p class="fw-bold">Sort</p>
+            <form action="#" class="small">
+              <div class="form-check custom-radio">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="Newest"
+                />
+                <label class="form-check-label" for="Newest"> Newest </label>
+              </div>
+              <!--  -->
+              <div class="form-check custom-radio">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="phl"
+                />
+                <label class="form-check-label" for="phl">
+                  Price:High-Low
+                </label>
+              </div>
+              <!--  -->
+              <div class="form-check custom-radio">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="plh"
+                />
+                <label class="form-check-label" for="plh">
+                  Price:Low-High
+                </label>
+              </div>
+              <!--  -->
+              <div class="form-check custom-radio">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="whl"
+                />
+                <label class="form-check-label" for="whl">
+                  Weight:Heavy-Light
+                </label>
+              </div>
+              <!--  -->
+              <div class="form-check custom-radio">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="wlh"
+                />
+                <label class="form-check-label" for="wlh">
+                  Weight:Light-Heavy
+                </label>
+              </div>
+            </form>
+            <!-- second form -->
+            <p class="border-top mt-3 pt-3 fw-bold">Price Range</p>
+            <form action="#" class="small">
+              <!-- checkboxes -->
+              <div class="form-check custom-checkbox">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="checkboxExample1"
+                />
+                <label class="form-check-label" for="checkboxExample1">
+                  Below &#8377;5000
+                </label>
+              </div>
 
-            <div class="form-check custom-checkbox">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="checkboxExample2"
-              />
-              <label class="form-check-label" for="checkboxExample2">
-                &#8377;5000 - &#8377;10000
-              </label>
+              <div class="form-check custom-checkbox">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="checkboxExample2"
+                />
+                <label class="form-check-label" for="checkboxExample2">
+                  &#8377;5000 - &#8377;10000
+                </label>
+              </div>
+
+              <div class="form-check custom-checkbox">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="checkboxExample3"
+                />
+                <label class="form-check-label" for="checkboxExample3">
+                  &#8377;10000 - &#8377;20000
+                </label>
+              </div>
+
+              <div class="form-check custom-checkbox">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="checkboxExample4"
+                />
+                <label class="form-check-label" for="checkboxExample4">
+                  &#8377;20000 - &#8377;30000
+                </label>
+              </div>
+
+              <div class="form-check custom-checkbox">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="checkboxExample5"
+                />
+                <label class="form-check-label" for="checkboxExample5">
+                  &#8377;30000 - &#8377;40000
+                </label>
+              </div>
+
+              <div class="form-check custom-checkbox">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="checkboxExample6"
+                />
+                <label class="form-check-label" for="checkboxExample6">
+                  &#8377;40000 - &#8377;50000
+                </label>
+              </div>
+
+              <div class="form-check custom-checkbox mb-3">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="checkboxExample7"
+                />
+                <label class="form-check-label" for="checkboxExample7">
+                  Above &#8377;50000
+                </label>
+              </div>
+
+              <!-- checkbox end -->
+            </form>
+            <!-- displaytype -->
+
+            <div class="border-top pt-3">
+              <p class="fw-bold">Display Type</p>
+              <button
+                type="button"
+                class="btn btn-light btn-sm"
+                style="font-size: 15px"
+              >
+                Digital
+              </button>
+              <button type="button" class="btn btn-light btn-sm">Analog</button>
             </div>
-
-            <div class="form-check custom-checkbox">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="checkboxExample3"
-              />
-              <label class="form-check-label" for="checkboxExample3">
-                &#8377;10000 - &#8377;20000
-              </label>
-            </div>
-
-            <div class="form-check custom-checkbox">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="checkboxExample4"
-              />
-              <label class="form-check-label" for="checkboxExample4">
-                &#8377;20000 - &#8377;30000
-              </label>
-            </div>
-
-            <div class="form-check custom-checkbox">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="checkboxExample5"
-              />
-              <label class="form-check-label" for="checkboxExample5">
-                &#8377;30000 - &#8377;40000
-              </label>
-            </div>
-
-            <div class="form-check custom-checkbox">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="checkboxExample6"
-              />
-              <label class="form-check-label" for="checkboxExample6">
-                &#8377;40000 - &#8377;50000
-              </label>
-            </div>
-
-            <div class="form-check custom-checkbox mb-3">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="checkboxExample7"
-              />
-              <label class="form-check-label" for="checkboxExample7">
-                Above &#8377;50000
-              </label>
-            </div>
-
-            <!-- checkbox end -->
-          </form>
-          <!-- displaytype -->
-
-          <div class="border-top pt-3">
-            <p class="fw-bold">Display Type</p>
-            <button
-              type="button"
-              class="btn btn-light btn-sm"
-              style="font-size: 15px"
-            >
-              Digital
+            <button type="button" class="btn btn-light btn-sm mt-3 mb-4 small">
+              Digital and Analog
             </button>
-            <button type="button" class="btn btn-light btn-sm">Analog</button>
           </div>
-          <button type="button" class="btn btn-light btn-sm mt-3 mb-4 small">
-            Digital and Analog
-          </button>
-        </div>
-        <div class="border-top">
-          <p class="pt-3 fw-bold">Functions</p>
-        </div>
+          <div class="border-top">
+            <p class="pt-3 fw-bold">Functions</p>
+          </div>
 
-        <div>
-          <button type="button" class="btn btn-light mb-3 small btn-sm">
-            Solar charger
-          </button>
-          <button type="button" class="btn btn-light mb-3 small btn-sm">
-            Water resistance
-          </button>
-        </div>
-        <div>
-          <button type="button" class="btn btn-light mb-3 small btn-sm">
-            Smartphone Link
-          </button>
-          <button type="button" class="btn btn-light mb-3 small btn-sm">
-            Tide graph
-          </button>
-        </div>
-        <div>
-          <button type="button" class="btn btn-light mb-3 btn-sm small">
-            Hand home position correction
-          </button>
-        </div>
-        <div>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            Moon data
-          </button>
-        </div>
-        <!-- bezel colors -->
-        <div class="border-top">
-          <p class="pt-3 fw-bold">Bezel color</p>
-        </div>
-        <!-- colors -->
-        <div
-          style="
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 15px;
-          "
-        >
+          <div>
+            <button type="button" class="btn btn-light mb-3 small btn-sm">
+              Solar charger
+            </button>
+            <button type="button" class="btn btn-light mb-3 small btn-sm">
+              Water resistance
+            </button>
+          </div>
+          <div>
+            <button type="button" class="btn btn-light mb-3 small btn-sm">
+              Smartphone Link
+            </button>
+            <button type="button" class="btn btn-light mb-3 small btn-sm">
+              Tide graph
+            </button>
+          </div>
+          <div>
+            <button type="button" class="btn btn-light mb-3 btn-sm small">
+              Hand home position correction
+            </button>
+          </div>
+          <div>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              Moon data
+            </button>
+          </div>
+          <!-- bezel colors -->
+          <div class="border-top">
+            <p class="pt-3 fw-bold">Bezel color</p>
+          </div>
+          <!-- colors -->
           <div
             style="
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-items: center;
+              display: grid;
+              grid-template-columns: repeat(4, 1fr);
+              gap: 15px;
             "
           >
-            <span style="border: 1px solid black; padding: 5px">
-              <span
-                style="
-                  display: block;
-                  width: 45px;
-                  height: 45px;
-                  background-color: black;
-                  padding: 10px;
-                  box-sizing: border-box;
-                "
-              ></span>
-            </span>
-            <span style="color: #cacaca; font-size: 13px">Black</span>
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <span style="border: 1px solid black; padding: 5px">
+                <span
+                  style="
+                    display: block;
+                    width: 45px;
+                    height: 45px;
+                    background-color: black;
+                    padding: 10px;
+                    box-sizing: border-box;
+                  "
+                ></span>
+              </span>
+              <span style="color: #cacaca; font-size: 13px">Black</span>
+            </div>
+            <!--  -->
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <span style="border: 1px solid black; padding: 5px">
+                <span
+                  style="
+                    display: block;
+                    width: 45px;
+                    height: 45px;
+                    background-color: #3599fe;
+                    padding: 10px;
+                    box-sizing: border-box;
+                  "
+                ></span>
+              </span>
+              <span style="color: #cacaca; font-size: 13px">Blue</span>
+            </div>
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <span style="border: 1px solid black; padding: 5px">
+                <span
+                  style="
+                    display: block;
+                    width: 45px;
+                    height: 45px;
+                    background-color: #339933;
+                    padding: 10px;
+                    box-sizing: border-box;
+                  "
+                ></span>
+              </span>
+              <span style="color: #cacaca; font-size: 13px">Green</span>
+            </div>
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <span style="border: 1px solid black; padding: 5px">
+                <span
+                  style="
+                    display: block;
+                    width: 45px;
+                    height: 45px;
+                    background-color: red;
+                    padding: 10px;
+                    box-sizing: border-box;
+                  "
+                ></span>
+              </span>
+              <span style="color: #cacaca; font-size: 13px">Red</span>
+            </div>
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <span style="border: 1px solid black; padding: 5px">
+                <span
+                  style="
+                    display: block;
+                    width: 45px;
+                    height: 45px;
+                    background-color: #cc9965;
+                    padding: 10px;
+                    box-sizing: border-box;
+                  "
+                ></span>
+              </span>
+              <span style="color: #cacaca; font-size: 13px">Beige</span>
+            </div>
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <span style="border: 1px solid black; padding: 5px">
+                <span
+                  style="
+                    display: block;
+                    width: 45px;
+                    height: 45px;
+                    background-color: #7f1481;
+                    padding: 10px;
+                    box-sizing: border-box;
+                  "
+                ></span>
+              </span>
+              <span style="color: #cacaca; font-size: 13px">Purple</span>
+            </div>
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <span style="border: 1px solid black; padding: 5px">
+                <span
+                  style="
+                    display: block;
+                    width: 45px;
+                    height: 45px;
+                    background-color: white;
+                    border: 1px solid whitesmoke;
+                    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                  "
+                ></span>
+              </span>
+              <span style="color: #cacaca; font-size: 13px">White</span>
+            </div>
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <span style="border: 1px solid black; padding: 5px">
+                <span
+                  style="
+                    display: block;
+                    width: 45px;
+                    height: 45px;
+                    background-color: #cccccc;
+                    padding: 10px;
+                    box-sizing: border-box;
+                  "
+                ></span>
+              </span>
+              <span style="color: #cacaca; font-size: 13px">Grey</span>
+            </div>
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <span style="border: 1px solid black; padding: 5px">
+                <span
+                  style="
+                    display: block;
+                    width: 45px;
+                    height: 45px;
+                    background-color: #feff0c;
+                    padding: 10px;
+                    box-sizing: border-box;
+                  "
+                ></span>
+              </span>
+              <span style="color: #cacaca; font-size: 13px">Yellow</span>
+            </div>
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <span style="border: 1px solid black; padding: 5px">
+                <span
+                  style="
+                    display: block;
+                    width: 45px;
+                    height: 45px;
+                    background-color: #fea610;
+                    padding: 10px;
+                    box-sizing: border-box;
+                  "
+                ></span>
+              </span>
+              <span style="color: #cacaca; font-size: 13px">Orange</span>
+            </div>
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <span style="border: 1px solid black; padding: 5px">
+                <span
+                  style="
+                    display: block;
+                    width: 45px;
+                    height: 45px;
+                    background-color: #ffc0cc;
+                    padding: 10px;
+                    box-sizing: border-box;
+                  "
+                ></span>
+              </span>
+              <span style="color: #cacaca; font-size: 13px">Pink</span>
+            </div>
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <span style="border: 1px solid black; padding: 5px">
+                <span
+                  style="
+                    display: block;
+                    width: 45px;
+                    height: 45px;
+                    background-color: #f2f3f2;
+                    padding: 10px;
+                    box-sizing: border-box;
+                  "
+                ></span>
+              </span>
+              <span style="color: #cacaca; font-size: 13px">Skeleton</span>
+            </div>
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <span style="border: 1px solid black; padding: 5px">
+                <span
+                  style="
+                    display: block;
+                    width: 45px;
+                    height: 45px;
+                    background-color: #dddddd;
+                    padding: 10px;
+                    box-sizing: border-box;
+                  "
+                ></span>
+              </span>
+              <span style="color: #cacaca; font-size: 13px">Silver</span>
+            </div>
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <span style="border: 1px solid black; padding: 5px">
+                <span
+                  style="
+                    display: block;
+                    width: 45px;
+                    height: 45px;
+                    background-color: #c5bd97;
+                    margin-bottom: 0px;
+                  "
+                ></span>
+              </span>
+              <span style="color: #cacaca; font-size: 13px">Gold</span>
+            </div>
+          </div>
+
+          <!-- series -->
+          <div class="border-top">
+            <p class="pt-3 fw-bold">Series</p>
+          </div>
+          <div>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              MT-G
+            </button>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              FULL METAL
+            </button>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              G-STEEL
+            </button>
+          </div>
+          <div>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              G-SQUAD
+            </button>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              MASTER OF G
+            </button>
           </div>
           <!--  -->
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-items: center;
-            "
-          >
-            <span style="border: 1px solid black; padding: 5px">
-              <span
-                style="
-                  display: block;
-                  width: 45px;
-                  height: 45px;
-                  background-color: #3599fe;
-                  padding: 10px;
-                  box-sizing: border-box;
-                "
-              ></span>
-            </span>
-            <span style="color: #cacaca; font-size: 13px">Blue</span>
+          <div>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              5600 SERIES
+            </button>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              2100 SERIES
+            </button>
           </div>
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-items: center;
-            "
-          >
-            <span style="border: 1px solid black; padding: 5px">
-              <span
-                style="
-                  display: block;
-                  width: 45px;
-                  height: 45px;
-                  background-color: #339933;
-                  padding: 10px;
-                  box-sizing: border-box;
-                "
-              ></span>
-            </span>
-            <span style="color: #cacaca; font-size: 13px">Green</span>
+          <div>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              110 SERIES
+            </button>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              6900 SERIES
+            </button>
           </div>
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-items: center;
-            "
-          >
-            <span style="border: 1px solid black; padding: 5px">
-              <span
-                style="
-                  display: block;
-                  width: 45px;
-                  height: 45px;
-                  background-color: red;
-                  padding: 10px;
-                  box-sizing: border-box;
-                "
-              ></span>
-            </span>
-            <span style="color: #cacaca; font-size: 13px">Red</span>
+          <div>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              G-LIDE
+            </button>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              LIMITED EDITION
+            </button>
           </div>
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-items: center;
-            "
-          >
-            <span style="border: 1px solid black; padding: 5px">
-              <span
-                style="
-                  display: block;
-                  width: 45px;
-                  height: 45px;
-                  background-color: #cc9965;
-                  padding: 10px;
-                  box-sizing: border-box;
-                "
-              ></span>
-            </span>
-            <span style="color: #cacaca; font-size: 13px">Beige</span>
+          <div>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              G-SHOCK WOMEN
+            </button>
           </div>
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-items: center;
-            "
-          >
-            <span style="border: 1px solid black; padding: 5px">
-              <span
-                style="
-                  display: block;
-                  width: 45px;
-                  height: 45px;
-                  background-color: #7f1481;
-                  padding: 10px;
-                  box-sizing: border-box;
-                "
-              ></span>
-            </span>
-            <span style="color: #cacaca; font-size: 13px">Purple</span>
+          <!--  -->
+          <div class="border-top">
+            <p class="pt-3 fw-bold">Time adjustment</p>
           </div>
+          <div>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              GPS satellite radio reception
+            </button>
+          </div>
+          <div>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              Standard radio reception
+            </button>
+          </div>
+          <!--  -->
+          <div class="border-top">
+            <p class="pt-3 fw-bold">Sensor feature</p>
+          </div>
+          <div>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              Direction
+            </button>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              Altitude
+            </button>
+          </div>
+          <div>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              Barometric pressure
+            </button>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              Temperature
+            </button>
+          </div>
+          <!-- disabled button -->
+          <div>
+            <button
+              type="button"
+              class="btn btn-light btn-sm mb-3 small disabled"
+            >
+              Water depth
+            </button>
+            <button
+              type="button"
+              class="btn btn-light btn-sm mb-3 small disabled"
+            >
+              Humidity
+            </button>
+          </div>
+          <div>
+            <button
+              type="button"
+              class="btn btn-light btn-sm mb-3 small disabled"
+            >
+              Number of steps
+            </button>
+          </div>
+          <div>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              Acceleration (number of steps/travel distance)
+            </button>
+          </div>
+          <div>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              Heart rate
+            </button>
+          </div>
+          <!--  -->
+          <!--  -->
+          <div class="border-top">
+            <p class="pt-3 fw-bold">Characteristics</p>
+          </div>
+          <div>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              Carbon materials
+            </button>
+          </div>
+          <div>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              Collaboration model
+            </button>
+          </div>
+          <!--  -->
+          <div class="border-top">
+            <p class="pt-3 fw-bold">Water resistant function</p>
+          </div>
+          <div>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              Water resistance for ISO 200m submersion
+            </button>
+          </div>
+          <div>
+            <button type="button" class="btn btn-light btn-sm mb-3 small">
+              Water resistance up to 20 bar
+            </button>
+          </div>
+          <!-- mahesh section ends -->
+        </div>
+
+        <div class="m-3 d-flex flex-wrap" style="width: 80%">
+          <!-- mohan & krishna &alfaj -->
           <div
+            class="card card1"
             style="
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-items: center;
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
             "
           >
-            <span style="border: 1px solid black; padding: 5px">
-              <span
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/casio/locales/in/en/products/watches/gshock/_jcr_content/root/responsivegrid/container/product_panel_list_f/content_panel_202211041126293110/image.casiocoreimg.jpeg/1689744233938/dw-5600bb-1-seq5.jpeg"
+                alt="..."
+                height="100%"
+              />
+              <p
                 style="
-                  display: block;
-                  width: 45px;
-                  height: 45px;
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
                   background-color: white;
-                  border: 1px solid whitesmoke;
-                  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
                 "
-              ></span>
-            </span>
-            <span style="color: #cacaca; font-size: 13px">White</span>
-          </div>
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-items: center;
-            "
-          >
-            <span style="border: 1px solid black; padding: 5px">
-              <span
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
                 style="
-                  display: block;
-                  width: 45px;
-                  height: 45px;
-                  background-color: #cccccc;
-                  padding: 10px;
-                  box-sizing: border-box;
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
                 "
-              ></span>
-            </span>
-            <span style="color: #cacaca; font-size: 13px">Grey</span>
-          </div>
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-items: center;
-            "
-          >
-            <span style="border: 1px solid black; padding: 5px">
-              <span
+              />
+            </div>
+            <div class="p-0 card-body bg-black">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
                 style="
-                  display: block;
-                  width: 45px;
-                  height: 45px;
-                  background-color: #feff0c;
-                  padding: 10px;
-                  box-sizing: border-box;
+                  font-size: 12px;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                  color: white;
+                  padding-left: 10px;
                 "
-              ></span>
-            </span>
-            <span style="color: #cacaca; font-size: 13px">Yellow</span>
+              >
+                BEST SELLERS
+              </p>
+            </div>
           </div>
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-items: center;
-            "
-          >
-            <span style="border: 1px solid black; padding: 5px">
-              <span
-                style="
-                  display: block;
-                  width: 45px;
-                  height: 45px;
-                  background-color: #fea610;
-                  padding: 10px;
-                  box-sizing: border-box;
-                "
-              ></span>
-            </span>
-            <span style="color: #cacaca; font-size: 13px">Orange</span>
-          </div>
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-items: center;
-            "
-          >
-            <span style="border: 1px solid black; padding: 5px">
-              <span
-                style="
-                  display: block;
-                  width: 45px;
-                  height: 45px;
-                  background-color: #ffc0cc;
-                  padding: 10px;
-                  box-sizing: border-box;
-                "
-              ></span>
-            </span>
-            <span style="color: #cacaca; font-size: 13px">Pink</span>
-          </div>
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-items: center;
-            "
-          >
-            <span style="border: 1px solid black; padding: 5px">
-              <span
-                style="
-                  display: block;
-                  width: 45px;
-                  height: 45px;
-                  background-color: #f2f3f2;
-                  padding: 10px;
-                  box-sizing: border-box;
-                "
-              ></span>
-            </span>
-            <span style="color: #cacaca; font-size: 13px">Skeleton</span>
-          </div>
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-items: center;
-            "
-          >
-            <span style="border: 1px solid black; padding: 5px">
-              <span
-                style="
-                  display: block;
-                  width: 45px;
-                  height: 45px;
-                  background-color: #dddddd;
-                  padding: 10px;
-                  box-sizing: border-box;
-                "
-              ></span>
-            </span>
-            <span style="color: #cacaca; font-size: 13px">Silver</span>
-          </div>
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-items: center;
-            "
-          >
-            <span style="border: 1px solid black; padding: 5px">
-              <span
-                style="
-                  display: block;
-                  width: 45px;
-                  height: 45px;
-                  background-color: #c5bd97;
-                  margin-bottom: 0px;
-                "
-              ></span>
-            </span>
-            <span style="color: #cacaca; font-size: 13px">Gold</span>
-          </div>
-        </div>
 
-        <!-- series -->
-        <div class="border-top">
-          <p class="pt-3 fw-bold">Series</p>
-        </div>
-        <div>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            MT-G
-          </button>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            FULL METAL
-          </button>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            G-STEEL
-          </button>
-        </div>
-        <div>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            G-SQUAD
-          </button>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            MASTER OF G
-          </button>
-        </div>
-        <!--  -->
-        <div>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            5600 SERIES
-          </button>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            2100 SERIES
-          </button>
-        </div>
-        <div>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            110 SERIES
-          </button>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            6900 SERIES
-          </button>
-        </div>
-        <div>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            G-LIDE
-          </button>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            LIMITED EDITION
-          </button>
-        </div>
-        <div>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            G-SHOCK WOMEN
-          </button>
-        </div>
-        <!--  -->
-        <div class="border-top">
-          <p class="pt-3 fw-bold">Time adjustment</p>
-        </div>
-        <div>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            GPS satellite radio reception
-          </button>
-        </div>
-        <div>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            Standard radio reception
-          </button>
-        </div>
-        <!--  -->
-        <div class="border-top">
-          <p class="pt-3 fw-bold">Sensor feature</p>
-        </div>
-        <div>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            Direction
-          </button>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            Altitude
-          </button>
-        </div>
-        <div>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            Barometric pressure
-          </button>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            Temperature
-          </button>
-        </div>
-        <!-- disabled button -->
-        <div>
-          <button
-            type="button"
-            class="btn btn-light btn-sm mb-3 small disabled"
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
           >
-            Water depth
-          </button>
-          <button
-            type="button"
-            class="btn btn-light btn-sm mb-3 small disabled"
-          >
-            Humidity
-          </button>
-        </div>
-        <div>
-          <button
-            type="button"
-            class="btn btn-light btn-sm mb-3 small disabled"
-          >
-            Number of steps
-          </button>
-        </div>
-        <div>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            Acceleration (number of steps/travel distance)
-          </button>
-        </div>
-        <div>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            Heart rate
-          </button>
-        </div>
-        <!--  -->
-        <!--  -->
-        <div class="border-top">
-          <p class="pt-3 fw-bold">Characteristics</p>
-        </div>
-        <div>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            Carbon materials
-          </button>
-        </div>
-        <div>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            Collaboration model
-          </button>
-        </div>
-        <!--  -->
-        <div class="border-top">
-          <p class="pt-3 fw-bold">Water resistant function</p>
-        </div>
-        <div>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            Water resistance for ISO 200m submersion
-          </button>
-        </div>
-        <div>
-          <button type="button" class="btn btn-light btn-sm mb-3 small">
-            Water resistance up to 20 bar
-          </button>
-        </div>
-        <!-- mahesh section ends -->
-      </div>
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/casio/locales/in/en/products/watches/gshock/_jcr_content/root/responsivegrid/container/product_panel_list_f/content_panel_202212211235073281/image.casiocoreimg.png/1689744244043/g-5600ue-1-04.png"
+                alt="..."
+                height="100%"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body bg-black">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 13px;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                  color: white;
+                  padding-left: 10px;
+                "
+              >
+                5600 series
+              </p>
+            </div>
+          </div>
 
-      <div class="m-3 d-flex flex-wrap" style="width: 80%">
-        <!-- mohan & krishna &alfaj -->
-        <div
-          class="card card1"
-          style="
-            font-family: sans-serif;
-            width: 280px;
-            height: 400px;
-            margin-left: 12px;
-            margin-bottom: 30px;
-            position: relative;
-          "
-        >
           <div
-            class="d-flex justify-content-center align-items-center"
-            style="height: 280px"
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
           >
-            <img
-              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-1a2/assets/DW-H5600-1A2.png.transform/product-panel/image.png"
-              alt="..."
-              height="196"
-            />
-            <p
-              style="
-                position: absolute;
-                top: 9pt;
-                left: 9pt;
-                display: inline-block;
-                padding: 0 7px;
-                background-color: white;
-              "
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
             >
-              NEW
-            </p>
-            <img
-              src="./img/heart.png"
-              alt=""
-              width="35"
-              style="position: absolute; top: 5pt; right: 9pt; cursor: pointer"
-            />
+              <img
+                src="https://www.casio.com/content/casio/locales/in/en/products/watches/gshock/_jcr_content/root/responsivegrid/container/product_panel_list_f/content_panel_202302141951216142/image.casiocoreimg.jpeg/1708506948743/gm-2100g-1a9-004.jpeg"
+                alt="..."
+                height="100%"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body bg-black">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 12px;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                  color: white;
+                  padding-left: 10px;
+                "
+              >
+                2100 series
+              </p>
+            </div>
           </div>
-          <div class="p-0 card-body">
-            <p
-              class="card-text mx-2 mb-0 mt-2"
-              style="
-                font-size: 1pc;
-                line-height: 25px;
-                font-weight: 500;
-                height: 25px;
-              "
-            >
-              G-SHOCK
-            </p>
-            <h4
-              class="card-text m-0 mt-1 mx-2"
-              style="
-                font-size: 18px;
-                line-height: 21.6px;
-                font-weight: 600;
-                height: 43px;
-              "
-            >
-              DW-H5600-1A2
-            </h4>
-            <p class="card-text m-0 mx-2" style="font-size: 8px; height: 10px">
-              MRP
-            </p>
-            <p
-              class="card-text m-0 mx-2"
-              style="font-size: 14px; font-weight: 500"
-            >
-              &#x20B9; 29,995 (incl. of all taxes)
-            </p>
-          </div>
-        </div>
 
-        <div
-          class="card card1"
-          style="
-            font-family: sans-serif;
-            width: 280px;
-            height: 400px;
-            margin-left: 12px;
-            margin-bottom: 30px;
-            position: relative;
-          "
-        >
           <div
-            class="d-flex justify-content-center align-items-center"
-            style="height: 280px"
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
           >
-            <img
-              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-1a2/assets/DW-H5600-1A2.png.transform/product-panel/image.png"
-              alt="..."
-              height="196"
-            />
-            <p
-              style="
-                position: absolute;
-                top: 9pt;
-                left: 9pt;
-                display: inline-block;
-                padding: 0 7px;
-                background-color: white;
-              "
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
             >
-              NEW
-            </p>
-            <img
-              src="./img/heart.png"
-              alt=""
-              width="35"
-              style="position: absolute; top: 5pt; right: 9pt; cursor: pointer"
-            />
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-1a2/assets/DW-H5600-1A2.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                DW-H5600-1A2
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 29,995 (incl. of all taxes)
+              </p>
+            </div>
           </div>
-          <div class="p-0 card-body">
-            <p
-              class="card-text mx-2 mb-0 mt-2"
-              style="
-                font-size: 1pc;
-                line-height: 25px;
-                font-weight: 500;
-                height: 25px;
-              "
-            >
-              G-SHOCK
-            </p>
-            <h4
-              class="card-text m-0 mt-1 mx-2"
-              style="
-                font-size: 18px;
-                line-height: 21.6px;
-                font-weight: 600;
-                height: 43px;
-              "
-            >
-              DW-H5600-1A2
-            </h4>
-            <p class="card-text m-0 mx-2" style="font-size: 8px; height: 10px">
-              MRP
-            </p>
-            <p
-              class="card-text m-0 mx-2"
-              style="font-size: 14px; font-weight: 500"
-            >
-              &#x20B9; 29,995 (incl. of all taxes)
-            </p>
-          </div>
-        </div>
 
-        <div
-          class="card card1"
-          style="
-            font-family: sans-serif;
-            width: 280px;
-            height: 400px;
-            margin-left: 12px;
-            margin-bottom: 30px;
-            position: relative;
-          "
-        >
           <div
-            class="d-flex justify-content-center align-items-center"
-            style="height: 280px"
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
           >
-            <img
-              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-1a2/assets/DW-H5600-1A2.png.transform/product-panel/image.png"
-              alt="..."
-              height="196"
-            />
-            <p
-              style="
-                position: absolute;
-                top: 9pt;
-                left: 9pt;
-                display: inline-block;
-                padding: 0 7px;
-                background-color: white;
-              "
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
             >
-              NEW
-            </p>
-            <img
-              src="./img/heart.png"
-              alt=""
-              width="35"
-              style="position: absolute; top: 5pt; right: 9pt; cursor: pointer"
-            />
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-7/assets/DW-H5600-7.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                DW-H5600-7
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 29,995 (incl. of all taxes)
+              </p>
+            </div>
           </div>
-          <div class="p-0 card-body">
-            <p
-              class="card-text mx-2 mb-0 mt-2"
-              style="
-                font-size: 1pc;
-                line-height: 25px;
-                font-weight: 500;
-                height: 25px;
-              "
-            >
-              G-SHOCK
-            </p>
-            <h4
-              class="card-text m-0 mt-1 mx-2"
-              style="
-                font-size: 18px;
-                line-height: 21.6px;
-                font-weight: 600;
-                height: 43px;
-              "
-            >
-              DW-H5600-1A2
-            </h4>
-            <p class="card-text m-0 mx-2" style="font-size: 8px; height: 10px">
-              MRP
-            </p>
-            <p
-              class="card-text m-0 mx-2"
-              style="font-size: 14px; font-weight: 500"
-            >
-              &#x20B9; 29,995 (incl. of all taxes)
-            </p>
-          </div>
-        </div>
 
-        <div
-          class="card card1"
-          style="
-            font-family: sans-serif;
-            width: 280px;
-            height: 400px;
-            margin-left: 12px;
-            margin-bottom: 30px;
-            position: relative;
-          "
-        >
           <div
-            class="d-flex justify-content-center align-items-center"
-            style="height: 280px"
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
           >
-            <img
-              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-1a2/assets/DW-H5600-1A2.png.transform/product-panel/image.png"
-              alt="..."
-              height="196"
-            />
-            <p
-              style="
-                position: absolute;
-                top: 9pt;
-                left: 9pt;
-                display: inline-block;
-                padding: 0 7px;
-                background-color: white;
-              "
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
             >
-              NEW
-            </p>
-            <img
-              src="./img/heart.png"
-              alt=""
-              width="35"
-              style="position: absolute; top: 5pt; right: 9pt; cursor: pointer"
-            />
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600mb-8/assets/DW-H5600MB-8.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                DW-H5600MB-8
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 29,995 (incl. of all taxes)
+              </p>
+            </div>
           </div>
-          <div class="p-0 card-body">
-            <p
-              class="card-text mx-2 mb-0 mt-2"
-              style="
-                font-size: 1pc;
-                line-height: 25px;
-                font-weight: 500;
-                height: 25px;
-              "
-            >
-              G-SHOCK
-            </p>
-            <h4
-              class="card-text m-0 mt-1 mx-2"
-              style="
-                font-size: 18px;
-                line-height: 21.6px;
-                font-weight: 600;
-                height: 43px;
-              "
-            >
-              DW-H5600-1A2
-            </h4>
-            <p class="card-text m-0 mx-2" style="font-size: 8px; height: 10px">
-              MRP
-            </p>
-            <p
-              class="card-text m-0 mx-2"
-              style="font-size: 14px; font-weight: 500"
-            >
-              &#x20B9; 29,995 (incl. of all taxes)
-            </p>
-          </div>
-        </div>
-      
-        <div
-          class="card card1"
-          style="
-            font-family: sans-serif;
-            width: 280px;
-            height: 400px;
-            margin-left: 12px;
-            margin-bottom: 30px;
-            position: relative;
-          "
-        >
-          <div
-            class="d-flex justify-content-center align-items-center"
-            style="height: 280px"
-          >
-            <img
-              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-1a2/assets/DW-H5600-1A2.png.transform/product-panel/image.png"
-              alt="..."
-              height="196"
-            />
-            <p
-              style="
-                position: absolute;
-                top: 9pt;
-                left: 9pt;
-                display: inline-block;
-                padding: 0 7px;
-                background-color: white;
-              "
-            >
-              NEW
-            </p>
-            <img
-              src="./img/heart.png"
-              alt=""
-              width="35"
-              style="position: absolute; top: 5pt; right: 9pt; cursor: pointer"
-            />
-          </div>
-          <div class="p-0 card-body">
-            <p
-              class="card-text mx-2 mb-0 mt-2"
-              style="
-                font-size: 1pc;
-                line-height: 25px;
-                font-weight: 500;
-                height: 25px;
-              "
-            >
-              G-SHOCK
-            </p>
-            <h4
-              class="card-text m-0 mt-1 mx-2"
-              style="
-                font-size: 18px;
-                line-height: 21.6px;
-                font-weight: 600;
-                height: 43px;
-              "
-            >
-              DW-H5600-1A2
-            </h4>
-            <p class="card-text m-0 mx-2" style="font-size: 8px; height: 10px">
-              MRP
-            </p>
-            <p
-              class="card-text m-0 mx-2"
-              style="font-size: 14px; font-weight: 500"
-            >
-              &#x20B9; 29,995 (incl. of all taxes)
-            </p>
-          </div>
-        </div>
-      
-        <div
-          class="card card1"
-          style="
-            font-family: sans-serif;
-            width: 280px;
-            height: 400px;
-            margin-left: 12px;
-            margin-bottom: 30px;
-            position: relative;
-          "
-        >
-          <div
-            class="d-flex justify-content-center align-items-center"
-            style="height: 280px"
-          >
-            <img
-              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-1a2/assets/DW-H5600-1A2.png.transform/product-panel/image.png"
-              alt="..."
-              height="196"
-            />
-            <p
-              style="
-                position: absolute;
-                top: 9pt;
-                left: 9pt;
-                display: inline-block;
-                padding: 0 7px;
-                background-color: white;
-              "
-            >
-              NEW
-            </p>
-            <img
-              src="./img/heart.png"
-              alt=""
-              width="35"
-              style="position: absolute; top: 5pt; right: 9pt; cursor: pointer"
-            />
-          </div>
-          <div class="p-0 card-body">
-            <p
-              class="card-text mx-2 mb-0 mt-2"
-              style="
-                font-size: 1pc;
-                line-height: 25px;
-                font-weight: 500;
-                height: 25px;
-              "
-            >
-              G-SHOCK
-            </p>
-            <h4
-              class="card-text m-0 mt-1 mx-2"
-              style="
-                font-size: 18px;
-                line-height: 21.6px;
-                font-weight: 600;
-                height: 43px;
-              "
-            >
-              DW-H5600-1A2
-            </h4>
-            <p class="card-text m-0 mx-2" style="font-size: 8px; height: 10px">
-              MRP
-            </p>
-            <p
-              class="card-text m-0 mx-2"
-              style="font-size: 14px; font-weight: 500"
-            >
-              &#x20B9; 29,995 (incl. of all taxes)
-            </p>
-          </div>
-        </div>
-      
-        <div
-          class="card card1"
-          style="
-            font-family: sans-serif;
-            width: 280px;
-            height: 400px;
-            margin-left: 12px;
-            margin-bottom: 30px;
-            position: relative;
-          "
-        >
-          <div
-            class="d-flex justify-content-center align-items-center"
-            style="height: 280px"
-          >
-            <img
-              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-1a2/assets/DW-H5600-1A2.png.transform/product-panel/image.png"
-              alt="..."
-              height="196"
-            />
-            <p
-              style="
-                position: absolute;
-                top: 9pt;
-                left: 9pt;
-                display: inline-block;
-                padding: 0 7px;
-                background-color: white;
-              "
-            >
-              NEW
-            </p>
-            <img
-              src="./img/heart.png"
-              alt=""
-              width="35"
-              style="position: absolute; top: 5pt; right: 9pt; cursor: pointer"
-            />
-          </div>
-          <div class="p-0 card-body">
-            <p
-              class="card-text mx-2 mb-0 mt-2"
-              style="
-                font-size: 1pc;
-                line-height: 25px;
-                font-weight: 500;
-                height: 25px;
-              "
-            >
-              G-SHOCK
-            </p>
-            <h4
-              class="card-text m-0 mt-1 mx-2"
-              style="
-                font-size: 18px;
-                line-height: 21.6px;
-                font-weight: 600;
-                height: 43px;
-              "
-            >
-              DW-H5600-1A2
-            </h4>
-            <p class="card-text m-0 mx-2" style="font-size: 8px; height: 10px">
-              MRP
-            </p>
-            <p
-              class="card-text m-0 mx-2"
-              style="font-size: 14px; font-weight: 500"
-            >
-              &#x20B9; 29,995 (incl. of all taxes)
-            </p>
-          </div>
-        </div>
-  
-        <div
-          class="card card1"
-          style="
-            font-family: sans-serif;
-            width: 280px;
-            height: 400px;
-            margin-left: 12px;
-            margin-bottom: 30px;
-            position: relative;
-          "
-        >
-          <div
-            class="d-flex justify-content-center align-items-center"
-            style="height: 280px"
-          >
-            <img
-              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-1a2/assets/DW-H5600-1A2.png.transform/product-panel/image.png"
-              alt="..."
-              height="196"
-            />
-            <p
-              style="
-                position: absolute;
-                top: 9pt;
-                left: 9pt;
-                display: inline-block;
-                padding: 0 7px;
-                background-color: white;
-              "
-            >
-              NEW
-            </p>
-            <img
-              src="./img/heart.png"
-              alt=""
-              width="35"
-              style="position: absolute; top: 5pt; right: 9pt; cursor: pointer"
-            />
-          </div>
-          <div class="p-0 card-body">
-            <p
-              class="card-text mx-2 mb-0 mt-2"
-              style="
-                font-size: 1pc;
-                line-height: 25px;
-                font-weight: 500;
-                height: 25px;
-              "
-            >
-              G-SHOCK
-            </p>
-            <h4
-              class="card-text m-0 mt-1 mx-2"
-              style="
-                font-size: 18px;
-                line-height: 21.6px;
-                font-weight: 600;
-                height: 43px;
-              "
-            >
-              DW-H5600-1A2
-            </h4>
-            <p class="card-text m-0 mx-2" style="font-size: 8px; height: 10px">
-              MRP
-            </p>
-            <p
-              class="card-text m-0 mx-2"
-              style="font-size: 14px; font-weight: 500"
-            >
-              &#x20B9; 29,995 (incl. of all taxes)
-            </p>
-          </div>
-        </div>
-      
-        <div
-          class="card card1"
-          style="
-            font-family: sans-serif;
-            width: 280px;
-            height: 400px;
-            margin-left: 12px;
-            margin-bottom: 30px;
-            position: relative;
-          "
-        >
-          <div
-            class="d-flex justify-content-center align-items-center"
-            style="height: 280px"
-          >
-            <img
-              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-1a2/assets/DW-H5600-1A2.png.transform/product-panel/image.png"
-              alt="..."
-              height="196"
-            />
-            <p
-              style="
-                position: absolute;
-                top: 9pt;
-                left: 9pt;
-                display: inline-block;
-                padding: 0 7px;
-                background-color: white;
-              "
-            >
-              NEW
-            </p>
-            <img
-              src="./img/heart.png"
-              alt=""
-              width="35"
-              style="position: absolute; top: 5pt; right: 9pt; cursor: pointer"
-            />
-          </div>
-          <div class="p-0 card-body">
-            <p
-              class="card-text mx-2 mb-0 mt-2"
-              style="
-                font-size: 1pc;
-                line-height: 25px;
-                font-weight: 500;
-                height: 25px;
-              "
-            >
-              G-SHOCK
-            </p>
-            <h4
-              class="card-text m-0 mt-1 mx-2"
-              style="
-                font-size: 18px;
-                line-height: 21.6px;
-                font-weight: 600;
-                height: 43px;
-              "
-            >
-              DW-H5600-1A2
-            </h4>
-            <p class="card-text m-0 mx-2" style="font-size: 8px; height: 10px">
-              MRP
-            </p>
-            <p
-              class="card-text m-0 mx-2"
-              style="font-size: 14px; font-weight: 500"
-            >
-              &#x20B9; 29,995 (incl. of all taxes)
-            </p>
-          </div>
-        </div>
-      
-        <div
-          class="card card1"
-          style="
-            font-family: sans-serif;
-            width: 280px;
-            height: 400px;
-            margin-left: 12px;
-            margin-bottom: 30px;
-            position: relative;
-          "
-        >
-          <div
-            class="d-flex justify-content-center align-items-center"
-            style="height: 280px"
-          >
-            <img
-              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-1a2/assets/DW-H5600-1A2.png.transform/product-panel/image.png"
-              alt="..."
-              height="196"
-            />
-            <p
-              style="
-                position: absolute;
-                top: 9pt;
-                left: 9pt;
-                display: inline-block;
-                padding: 0 7px;
-                background-color: white;
-              "
-            >
-              NEW
-            </p>
-            <img
-              src="./img/heart.png"
-              alt=""
-              width="35"
-              style="position: absolute; top: 5pt; right: 9pt; cursor: pointer"
-            />
-          </div>
-          <div class="p-0 card-body">
-            <p
-              class="card-text mx-2 mb-0 mt-2"
-              style="
-                font-size: 1pc;
-                line-height: 25px;
-                font-weight: 500;
-                height: 25px;
-              "
-            >
-              G-SHOCK
-            </p>
-            <h4
-              class="card-text m-0 mt-1 mx-2"
-              style="
-                font-size: 18px;
-                line-height: 21.6px;
-                font-weight: 600;
-                height: 43px;
-              "
-            >
-              DW-H5600-1A2
-            </h4>
-            <p class="card-text m-0 mx-2" style="font-size: 8px; height: 10px">
-              MRP
-            </p>
-            <p
-              class="card-text m-0 mx-2"
-              style="font-size: 14px; font-weight: 500"
-            >
-              &#x20B9; 29,995 (incl. of all taxes)
-            </p>
-          </div>
-        </div>
-      
-        <div
-          class="card card1"
-          style="
-            font-family: sans-serif;
-            width: 280px;
-            height: 400px;
-            margin-left: 12px;
-            margin-bottom: 30px;
-            position: relative;
-          "
-        >
-          <div
-            class="d-flex justify-content-center align-items-center"
-            style="height: 280px"
-          >
-            <img
-              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-1a2/assets/DW-H5600-1A2.png.transform/product-panel/image.png"
-              alt="..."
-              height="196"
-            />
-            <p
-              style="
-                position: absolute;
-                top: 9pt;
-                left: 9pt;
-                display: inline-block;
-                padding: 0 7px;
-                background-color: white;
-              "
-            >
-              NEW
-            </p>
-            <img
-              src="./img/heart.png"
-              alt=""
-              width="35"
-              style="position: absolute; top: 5pt; right: 9pt; cursor: pointer"
-            />
-          </div>
-          <div class="p-0 card-body">
-            <p
-              class="card-text mx-2 mb-0 mt-2"
-              style="
-                font-size: 1pc;
-                line-height: 25px;
-                font-weight: 500;
-                height: 25px;
-              "
-            >
-              G-SHOCK
-            </p>
-            <h4
-              class="card-text m-0 mt-1 mx-2"
-              style="
-                font-size: 18px;
-                line-height: 21.6px;
-                font-weight: 600;
-                height: 43px;
-              "
-            >
-              DW-H5600-1A2
-            </h4>
-            <p class="card-text m-0 mx-2" style="font-size: 8px; height: 10px">
-              MRP
-            </p>
-            <p
-              class="card-text m-0 mx-2"
-              style="font-size: 14px; font-weight: 500"
-            >
-              &#x20B9; 29,995 (incl. of all taxes)
-            </p>
-          </div>
-        </div>
-      
-        <div
-          class="card card1"
-          style="
-            font-family: sans-serif;
-            width: 280px;
-            height: 400px;
-            margin-left: 12px;
-            margin-bottom: 30px;
-            position: relative;
-          "
-        >
-          <div
-            class="d-flex justify-content-center align-items-center"
-            style="height: 280px"
-          >
-            <img
-              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-1a2/assets/DW-H5600-1A2.png.transform/product-panel/image.png"
-              alt="..."
-              height="196"
-            />
-            <p
-              style="
-                position: absolute;
-                top: 9pt;
-                left: 9pt;
-                display: inline-block;
-                padding: 0 7px;
-                background-color: white;
-              "
-            >
-              NEW
-            </p>
-            <img
-              src="./img/heart.png"
-              alt=""
-              width="35"
-              style="position: absolute; top: 5pt; right: 9pt; cursor: pointer"
-            />
-          </div>
-          <div class="p-0 card-body">
-            <p
-              class="card-text mx-2 mb-0 mt-2"
-              style="
-                font-size: 1pc;
-                line-height: 25px;
-                font-weight: 500;
-                height: 25px;
-              "
-            >
-              G-SHOCK
-            </p>
-            <h4
-              class="card-text m-0 mt-1 mx-2"
-              style="
-                font-size: 18px;
-                line-height: 21.6px;
-                font-weight: 600;
-                height: 43px;
-              "
-            >
-              DW-H5600-1A2
-            </h4>
-            <p class="card-text m-0 mx-2" style="font-size: 8px; height: 10px">
-              MRP
-            </p>
-            <p
-              class="card-text m-0 mx-2"
-              style="font-size: 14px; font-weight: 500"
-            >
-              &#x20B9; 29,995 (incl. of all taxes)
-            </p>
-          </div>
-        </div>
-      
-        <div
-          class="card card1"
-          style="
-            font-family: sans-serif;
-            width: 280px;
-            height: 400px;
-            margin-left: 12px;
-            margin-bottom: 30px;
-            position: relative;
-          "
-        >
-          <div
-            class="d-flex justify-content-center align-items-center"
-            style="height: 280px"
-          >
-            <img
-              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-1a2/assets/DW-H5600-1A2.png.transform/product-panel/image.png"
-              alt="..."
-              height="196"
-            />
-            <p
-              style="
-                position: absolute;
-                top: 9pt;
-                left: 9pt;
-                display: inline-block;
-                padding: 0 7px;
-                background-color: white;
-              "
-            >
-              NEW
-            </p>
-            <img
-              src="./img/heart.png"
-              alt=""
-              width="35"
-              style="position: absolute; top: 5pt; right: 9pt; cursor: pointer"
-            />
-          </div>
-          <div class="p-0 card-body">
-            <p
-              class="card-text mx-2 mb-0 mt-2"
-              style="
-                font-size: 1pc;
-                line-height: 25px;
-                font-weight: 500;
-                height: 25px;
-              "
-            >
-              G-SHOCK
-            </p>
-            <h4
-              class="card-text m-0 mt-1 mx-2"
-              style="
-                font-size: 18px;
-                line-height: 21.6px;
-                font-weight: 600;
-                height: 43px;
-              "
-            >
-              DW-H5600-1A2
-            </h4>
-            <p class="card-text m-0 mx-2" style="font-size: 8px; height: 10px">
-              MRP
-            </p>
-            <p
-              class="card-text m-0 mx-2"
-              style="font-size: 14px; font-weight: 500"
-            >
-              &#x20B9; 29,995 (incl. of all taxes)
-            </p>
-          </div>
-        </div>
-      
-        <div
-          class="card card1"
-          style="
-            font-family: sans-serif;
-            width: 280px;
-            height: 400px;
-            margin-left: 12px;
-            margin-bottom: 30px;
-            position: relative;
-          "
-        >
-          <div
-            class="d-flex justify-content-center align-items-center"
-            style="height: 280px"
-          >
-            <img
-              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-1a2/assets/DW-H5600-1A2.png.transform/product-panel/image.png"
-              alt="..."
-              height="196"
-            />
-            <p
-              style="
-                position: absolute;
-                top: 9pt;
-                left: 9pt;
-                display: inline-block;
-                padding: 0 7px;
-                background-color: white;
-              "
-            >
-              NEW
-            </p>
-            <img
-              src="./img/heart.png"
-              alt=""
-              width="35"
-              style="position: absolute; top: 5pt; right: 9pt; cursor: pointer"
-            />
-          </div>
-          <div class="p-0 card-body">
-            <p
-              class="card-text mx-2 mb-0 mt-2"
-              style="
-                font-size: 1pc;
-                line-height: 25px;
-                font-weight: 500;
-                height: 25px;
-              "
-            >
-              G-SHOCK
-            </p>
-            <h4
-              class="card-text m-0 mt-1 mx-2"
-              style="
-                font-size: 18px;
-                line-height: 21.6px;
-                font-weight: 600;
-                height: 43px;
-              "
-            >
-              DW-H5600-1A2
-            </h4>
-            <p class="card-text m-0 mx-2" style="font-size: 8px; height: 10px">
-              MRP
-            </p>
-            <p
-              class="card-text m-0 mx-2"
-              style="font-size: 14px; font-weight: 500"
-            >
-              &#x20B9; 29,995 (incl. of all taxes)
-            </p>
-          </div>
-        </div>
-      
-        <div
-          class="card card1"
-          style="
-            font-family: sans-serif;
-            width: 280px;
-            height: 400px;
-            margin-left: 12px;
-            margin-bottom: 30px;
-            position: relative;
-          "
-        >
-          <div
-            class="d-flex justify-content-center align-items-center"
-            style="height: 280px"
-          >
-            <img
-              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-1a2/assets/DW-H5600-1A2.png.transform/product-panel/image.png"
-              alt="..."
-              height="196"
-            />
-            <p
-              style="
-                position: absolute;
-                top: 9pt;
-                left: 9pt;
-                display: inline-block;
-                padding: 0 7px;
-                background-color: white;
-              "
-            >
-              NEW
-            </p>
-            <img
-              src="./img/heart.png"
-              alt=""
-              width="35"
-              style="position: absolute; top: 5pt; right: 9pt; cursor: pointer"
-            />
-          </div>
-          <div class="p-0 card-body">
-            <p
-              class="card-text mx-2 mb-0 mt-2"
-              style="
-                font-size: 1pc;
-                line-height: 25px;
-                font-weight: 500;
-                height: 25px;
-              "
-            >
-              G-SHOCK
-            </p>
-            <h4
-              class="card-text m-0 mt-1 mx-2"
-              style="
-                font-size: 18px;
-                line-height: 21.6px;
-                font-weight: 600;
-                height: 43px;
-              "
-            >
-              DW-H5600-1A2
-            </h4>
-            <p class="card-text m-0 mx-2" style="font-size: 8px; height: 10px">
-              MRP
-            </p>
-            <p
-              class="card-text m-0 mx-2"
-              style="font-size: 14px; font-weight: 500"
-            >
-              &#x20B9; 29,995 (incl. of all taxes)
-            </p>
-          </div>
-        </div>
-      
-        <div
-          class="card card1"
-          style="
-            font-family: sans-serif;
-            width: 280px;
-            height: 400px;
-            margin-left: 12px;
-            margin-bottom: 30px;
-            position: relative;
-          "
-        >
-          <div
-            class="d-flex justify-content-center align-items-center"
-            style="height: 280px"
-          >
-            <img
-              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-1a2/assets/DW-H5600-1A2.png.transform/product-panel/image.png"
-              alt="..."
-              height="196"
-            />
-            <p
-              style="
-                position: absolute;
-                top: 9pt;
-                left: 9pt;
-                display: inline-block;
-                padding: 0 7px;
-                background-color: white;
-              "
-            >
-              NEW
-            </p>
-            <img
-              src="./img/heart.png"
-              alt=""
-              width="35"
-              style="position: absolute; top: 5pt; right: 9pt; cursor: pointer"
-            />
-          </div>
-          <div class="p-0 card-body">
-            <p
-              class="card-text mx-2 mb-0 mt-2"
-              style="
-                font-size: 1pc;
-                line-height: 25px;
-                font-weight: 500;
-                height: 25px;
-              "
-            >
-              G-SHOCK
-            </p>
-            <h4
-              class="card-text m-0 mt-1 mx-2"
-              style="
-                font-size: 18px;
-                line-height: 21.6px;
-                font-weight: 600;
-                height: 43px;
-              "
-            >
-              DW-H5600-1A2
-            </h4>
-            <p class="card-text m-0 mx-2" style="font-size: 8px; height: 10px">
-              MRP
-            </p>
-            <p
-              class="card-text m-0 mx-2"
-              style="font-size: 14px; font-weight: 500"
-            >
-              &#x20B9; 29,995 (incl. of all taxes)
-            </p>
-          </div>
-        </div>
-      
-        <div
-          class="card card1"
-          style="
-            font-family: sans-serif;
-            width: 280px;
-            height: 400px;
-            margin-left: 12px;
-            margin-bottom: 30px;
-            position: relative;
-          "
-        >
-          <div
-            class="d-flex justify-content-center align-items-center"
-            style="height: 280px"
-          >
-            <img
-              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-1a2/assets/DW-H5600-1A2.png.transform/product-panel/image.png"
-              alt="..."
-              height="196"
-            />
-            <p
-              style="
-                position: absolute;
-                top: 9pt;
-                left: 9pt;
-                display: inline-block;
-                padding: 0 7px;
-                background-color: white;
-              "
-            >
-              NEW
-            </p>
-            <img
-              src="./img/heart.png"
-              alt=""
-              width="35"
-              style="position: absolute; top: 5pt; right: 9pt; cursor: pointer"
-            />
-          </div>
-          <div class="p-0 card-body">
-            <p
-              class="card-text mx-2 mb-0 mt-2"
-              style="
-                font-size: 1pc;
-                line-height: 25px;
-                font-weight: 500;
-                height: 25px;
-              "
-            >
-              G-SHOCK
-            </p>
-            <h4
-              class="card-text m-0 mt-1 mx-2"
-              style="
-                font-size: 18px;
-                line-height: 21.6px;
-                font-weight: 600;
-                height: 43px;
-              "
-            >
-              DW-H5600-1A2
-            </h4>
-            <p class="card-text m-0 mx-2" style="font-size: 8px; height: 10px">
-              MRP
-            </p>
-            <p
-              class="card-text m-0 mx-2"
-              style="font-size: 14px; font-weight: 500"
-            >
-              &#x20B9; 29,995 (incl. of all taxes)
-            </p>
-          </div>
-        </div>
-      
-        <div
-          class="card card1"
-          style="
-            font-family: sans-serif;
-            width: 280px;
-            height: 400px;
-            margin-left: 12px;
-            margin-bottom: 30px;
-            position: relative;
-          "
-        >
-          <div
-            class="d-flex justify-content-center align-items-center"
-            style="height: 280px"
-          >
-            <img
-              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-1a2/assets/DW-H5600-1A2.png.transform/product-panel/image.png"
-              alt="..."
-              height="196"
-            />
-            <p
-              style="
-                position: absolute;
-                top: 9pt;
-                left: 9pt;
-                display: inline-block;
-                padding: 0 7px;
-                background-color: white;
-              "
-            >
-              NEW
-            </p>
-            <img
-              src="./img/heart.png"
-              alt=""
-              width="35"
-              style="position: absolute; top: 5pt; right: 9pt; cursor: pointer"
-            />
-          </div>
-          <div class="p-0 card-body">
-            <p
-              class="card-text mx-2 mb-0 mt-2"
-              style="
-                font-size: 1pc;
-                line-height: 25px;
-                font-weight: 500;
-                height: 25px;
-              "
-            >
-              G-SHOCK
-            </p>
-            <h4
-              class="card-text m-0 mt-1 mx-2"
-              style="
-                font-size: 18px;
-                line-height: 21.6px;
-                font-weight: 600;
-                height: 43px;
-              "
-            >
-              DW-H5600-1A2
-            </h4>
-            <p class="card-text m-0 mx-2" style="font-size: 8px; height: 10px">
-              MRP
-            </p>
-            <p
-              class="card-text m-0 mx-2"
-              style="font-size: 14px; font-weight: 500"
-            >
-              &#x20B9; 29,995 (incl. of all taxes)
-            </p>
-          </div>
-        </div>
-      
-        <div
-          class="card card1"
-          style="
-            font-family: sans-serif;
-            width: 280px;
-            height: 400px;
-            margin-left: 12px;
-            margin-bottom: 30px;
-            position: relative;
-          "
-        >
-          <div
-            class="d-flex justify-content-center align-items-center"
-            style="height: 280px"
-          >
-            <img
-              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-1a2/assets/DW-H5600-1A2.png.transform/product-panel/image.png"
-              alt="..."
-              height="196"
-            />
-            <p
-              style="
-                position: absolute;
-                top: 9pt;
-                left: 9pt;
-                display: inline-block;
-                padding: 0 7px;
-                background-color: white;
-              "
-            >
-              NEW
-            </p>
-            <img
-              src="./img/heart.png"
-              alt=""
-              width="35"
-              style="position: absolute; top: 5pt; right: 9pt; cursor: pointer"
-            />
-          </div>
-          <div class="p-0 card-body">
-            <p
-              class="card-text mx-2 mb-0 mt-2"
-              style="
-                font-size: 1pc;
-                line-height: 25px;
-                font-weight: 500;
-                height: 25px;
-              "
-            >
-              G-SHOCK
-            </p>
-            <h4
-              class="card-text m-0 mt-1 mx-2"
-              style="
-                font-size: 18px;
-                line-height: 21.6px;
-                font-weight: 600;
-                height: 43px;
-              "
-            >
-              DW-H5600-1A2
-            </h4>
-            <p class="card-text m-0 mx-2" style="font-size: 8px; height: 10px">
-              MRP
-            </p>
-            <p
-              class="card-text m-0 mx-2"
-              style="font-size: 14px; font-weight: 500"
-            >
-              &#x20B9; 29,995 (incl. of all taxes)
-            </p>
-          </div>
-      </div>
 
-      <div
-          class="card card1"
-          style="
-            font-family: sans-serif;
-            width: 280px;
-            height: 400px;
-            margin-left: 12px;
-            margin-bottom: 30px;
-            position: relative;
-          "
-        >
           <div
-            class="d-flex justify-content-center align-items-center"
-            style="height: 280px"
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
           >
-            <img
-              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-1a2/assets/DW-H5600-1A2.png.transform/product-panel/image.png"
-              alt="..."
-              height="196"
-            />
-            <p
-              style="
-                position: absolute;
-                top: 9pt;
-                left: 9pt;
-                display: inline-block;
-                padding: 0 7px;
-                background-color: white;
-              "
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
             >
-              NEW
-            </p>
-            <img
-              src="./img/heart.png"
-              alt=""
-              width="35"
-              style="position: absolute; top: 5pt; right: 9pt; cursor: pointer"
-            />
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GM1/gm-110gc-1a/assets/GM-110GC-1A.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GM-110GC-1A
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 19,445 (incl. of all taxes)
+              </p>
+            </div>
           </div>
-          <div class="p-0 card-body">
-            <p
-              class="card-text mx-2 mb-0 mt-2"
-              style="
-                font-size: 1pc;
-                line-height: 25px;
-                font-weight: 500;
-                height: 25px;
-              "
-            >
-              G-SHOCK
-            </p>
-            <h4
-              class="card-text m-0 mt-1 mx-2"
-              style="
-                font-size: 18px;
-                line-height: 21.6px;
-                font-weight: 600;
-                height: 43px;
-              "
-            >
-              DW-H5600-1A2
-            </h4>
-            <p class="card-text m-0 mx-2" style="font-size: 8px; height: 10px">
-              MRP
-            </p>
-            <p
-              class="card-text m-0 mx-2"
-              style="font-size: 14px; font-weight: 500"
-            >
-              &#x20B9; 29,995 (incl. of all taxes)
-            </p>
-          </div>
-        </div>
-      
-        <div
-          class="card card1"
-          style="
-            font-family: sans-serif;
-            width: 280px;
-            height: 400px;
-            margin-left: 12px;
-            margin-bottom: 30px;
-            position: relative;
-          "
-        >
+
           <div
-            class="d-flex justify-content-center align-items-center"
-            style="height: 280px"
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
           >
-            <img
-              src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwh/dw-h5600-1a2/assets/DW-H5600-1A2.png.transform/product-panel/image.png"
-              alt="..."
-              height="196"
-            />
-            <p
-              style="
-                position: absolute;
-                top: 9pt;
-                left: 9pt;
-                display: inline-block;
-                padding: 0 7px;
-                background-color: white;
-              "
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
             >
-              NEW
-            </p>
-            <img
-              src="./img/heart.png"
-              alt=""
-              width="35"
-              style="position: absolute; top: 5pt; right: 9pt; cursor: pointer"
-            />
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/gm2/gm-2100gc-1a/assets/GM-2100GC-1A.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GM-2100GC-1A
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 19,445 (incl. of all taxes)
+              </p>
+            </div>
           </div>
-          <div class="p-0 card-body">
-            <p
-              class="card-text mx-2 mb-0 mt-2"
-              style="
-                font-size: 1pc;
-                line-height: 25px;
-                font-weight: 500;
-                height: 25px;
-              "
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
             >
-              G-SHOCK
-            </p>
-            <h4
-              class="card-text m-0 mt-1 mx-2"
-              style="
-                font-size: 18px;
-                line-height: 21.6px;
-                font-weight: 600;
-                height: 43px;
-              "
-            >
-              DW-H5600-1A2
-            </h4>
-            <p class="card-text m-0 mx-2" style="font-size: 8px; height: 10px">
-              MRP
-            </p>
-            <p
-              class="card-text m-0 mx-2"
-              style="font-size: 14px; font-weight: 500"
-            >
-              &#x20B9; 29,995 (incl. of all taxes)
-            </p>
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GM5/gm-5600gc-1/assets/GM-5600GC-1.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GM-5600GC-1
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 17,995 (incl. of all taxes)
+              </p>
+            </div>
           </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/DW5/dw-5600ubb-1/assets/DW-5600UBB-1.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                DW-5600UBB-1
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 29,995 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/DW6/dw-6900ums-1/assets/DW-6900UMS-1.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                DW-6900MS-1
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 29,995 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GS/GST/gst-b600-1a/assets/GST-B600-1A.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GST-B600-1A
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 22,995 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GS/GST/gst-b600a-1a6/assets/GST-B600A-1A6.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GST-B600A-1A6
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 24,495 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GS/GST/gst-b600d-1a/assets/GST-B600D-1A.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GST-B600-1A
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 27,995 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GW/GW9/gw-9500tlc-1/assets/GW-9500TLC-1.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GW-9500TLC-1
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 24,995 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA1/ga-110cd-1a2/assets/GA-110CD-1A2.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GA-110CD-1A2
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 11,695 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA1/ga-110cd-1a3/assets/GA-110CD-1A3.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GA-110CD-1A3
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 11,695 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA1/ga-110cd-1a9/assets/GA-110CD-1A9.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GA-110CD-1A9
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 11,695 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA2/ga-2100bce-1a/assets/GA-2100BCE-1A.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GA-2100BCE-1A
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 9,995 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMA/gma-p2100-2a/assets/GMA-P2100-2A.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GMA-P2100-2A
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 8,495 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMA/gma-p2100-7a/assets/GMA-P2100-7A.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GMA-P2100-7A
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 8,495 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <!--  -->
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMA/gma-p2100w-7a/assets/GMA-P2100W-7A.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GMA-P2100W-7A
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 8,495 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA2/ga-2100-2a2/assets/GA-2100-2A2.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GA-21002A2
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 9,195 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA2/ga-2100-7a7/assets/GA-2100-7A7.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GA-2100-7A7
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 9,195 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA2/ga-2100-9a9/assets/GA-2100-9A9.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GA-2100-9A9
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 9,195 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+          <!-- cards section end -->
         </div>
       </div>
     </div>
