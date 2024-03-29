@@ -24,7 +24,7 @@
     />
   </head>
   <style>
-    @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
     .contains {
       width: 100%;
       max-width: 1600px;
@@ -44,7 +44,7 @@
       grid-template-columns: repeat(4, 1fr);
       gap: 30px;
       padding: 20px;
-      font-family: "Roboto", sans-serif;
+      font-family: 'Roboto', sans-serif;
       font-weight: 500;
       font-style: normal;
       margin: 20px 0 0 50px;
@@ -69,7 +69,7 @@
       gap: 30px;
       font-size: 14px;
 
-      font-family: "Roboto", sans-serif;
+      font-family: 'Roboto', sans-serif;
       font-weight: 500;
       font-style: normal;
       cursor: pointer;
@@ -84,7 +84,7 @@
     #container-fluid > div:nth-child(3) {
       display: flex;
       gap: 30px;
-      font-family: "Roboto", sans-serif;
+      font-family: 'Roboto', sans-serif;
       font-weight: 500;
       font-style: normal;
       cursor: pointer;
@@ -192,6 +192,19 @@
 
     .cards-container::-webkit-scrollbar {
       width: 0px;
+    }
+
+    .card2 > div:first-child {
+      background-image: url('https://www.casio.com/content/casio/locales/in/en/products/watches/gshock/_jcr_content/root/responsivegrid/container/product_panel_list_f/content_panel_202211041126293110/image.casiocoreimg.jpeg/1689744233938/dw-5600bb-1-seq5.jpeg');
+      background-position: center;
+      background-size: cover;
+      transform: scale(0.9);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .card2 > div:first-child:hover {
+      transform: scale(1);
+      background-size: cover;
     }
 
     .filter-section::-webkit-scrollbar {
@@ -894,7 +907,7 @@
         >
           <!-- mohan & krishna &alfaj -->
           <div
-            class="card card1"
+            class="card card1 card2"
             style="
               font-family: sans-serif;
               width: 280px;
@@ -902,41 +915,13 @@
               margin-left: 12px;
               margin-bottom: 30px;
               position: relative;
+              border: none;
             "
           >
             <div
               class="d-flex justify-content-center align-items-center"
               style="height: 280px"
-            >
-              <img
-                src="https://www.casio.com/content/casio/locales/in/en/products/watches/gshock/_jcr_content/root/responsivegrid/container/product_panel_list_f/content_panel_202211041126293110/image.casiocoreimg.jpeg/1689744233938/dw-5600bb-1-seq5.jpeg"
-                alt="..."
-                height="100%"
-              />
-              <p
-                style="
-                  position: absolute;
-                  top: 9pt;
-                  left: 9pt;
-                  display: inline-block;
-                  padding: 0 7px;
-                  background-color: white;
-                "
-              >
-                NEW
-              </p>
-              <img
-                src="./img/heart.png"
-                alt=""
-                width="35"
-                style="
-                  position: absolute;
-                  top: 5pt;
-                  right: 9pt;
-                  cursor: pointer;
-                "
-              />
-            </div>
+            ></div>
             <div class="p-0 card-body bg-black">
               <p
                 class="card-text mx-2 mb-0 mt-2"
@@ -955,7 +940,7 @@
           </div>
 
           <div
-            class="card card1"
+            class="card card1 card2"
             style="
               font-family: sans-serif;
               width: 280px;
@@ -963,6 +948,7 @@
               margin-left: 12px;
               margin-bottom: 30px;
               position: relative;
+              border: none;
             "
           >
             <div
@@ -973,29 +959,6 @@
                 src="https://www.casio.com/content/casio/locales/in/en/products/watches/gshock/_jcr_content/root/responsivegrid/container/product_panel_list_f/content_panel_202212211235073281/image.casiocoreimg.png/1689744244043/g-5600ue-1-04.png"
                 alt="..."
                 height="100%"
-              />
-              <p
-                style="
-                  position: absolute;
-                  top: 9pt;
-                  left: 9pt;
-                  display: inline-block;
-                  padding: 0 7px;
-                  background-color: white;
-                "
-              >
-                NEW
-              </p>
-              <img
-                src="./img/heart.png"
-                alt=""
-                width="35"
-                style="
-                  position: absolute;
-                  top: 5pt;
-                  right: 9pt;
-                  cursor: pointer;
-                "
               />
             </div>
             <div class="p-0 card-body bg-black">
@@ -1008,6 +971,7 @@
                   height: 25px;
                   color: white;
                   padding-left: 10px;
+                  border: none;
                 "
               >
                 5600 series
@@ -1016,7 +980,7 @@
           </div>
 
           <div
-            class="card card1"
+            class="card card1 card2"
             style="
               font-family: sans-serif;
               width: 280px;
@@ -1024,6 +988,7 @@
               margin-left: 12px;
               margin-bottom: 30px;
               position: relative;
+              border: none;
             "
           >
             <div
@@ -1034,29 +999,6 @@
                 src="https://www.casio.com/content/casio/locales/in/en/products/watches/gshock/_jcr_content/root/responsivegrid/container/product_panel_list_f/content_panel_202302141951216142/image.casiocoreimg.jpeg/1708506948743/gm-2100g-1a9-004.jpeg"
                 alt="..."
                 height="100%"
-              />
-              <p
-                style="
-                  position: absolute;
-                  top: 9pt;
-                  left: 9pt;
-                  display: inline-block;
-                  padding: 0 7px;
-                  background-color: white;
-                "
-              >
-                NEW
-              </p>
-              <img
-                src="./img/heart.png"
-                alt=""
-                width="35"
-                style="
-                  position: absolute;
-                  top: 5pt;
-                  right: 9pt;
-                  cursor: pointer;
-                "
               />
             </div>
             <div class="p-0 card-body bg-black">
@@ -2876,6 +2818,2136 @@
                 style="font-size: 14px; font-weight: 500"
               >
                 &#x20B9; 9,195 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA7/ga-700bce-1a/assets/GA-700BCE-1A.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GA-700BCE-1A
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 9,995 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMS/gm-s5600ubr-5/assets/GM-S5600UBR-5.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GM-75600UBR-5
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 14,995 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMS/gm-s5600upg-4/assets/GM-S5600UPG-4.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GM-S5600UPG-4
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 14,995 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/DW5/dw-5600bce-1/assets/DW-5600BCE-1.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                DW-5600BCE-1
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 8,495 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GP/GPR/gpr-h1000-1/assets/GPR-H1000-1.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GPR-H1000-1
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 59,995 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GP/GPR/gpr-h1000-9/assets/GPR-H1000-9.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GPR-H1000-9
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 59,995 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/gm2/gm-2100mwg-1a/assets/GM-2100MWG-1A.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GM-2100MWG-1A
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 24,995 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA1/ga-100mt-1a3/assets/GA-100MT-1A3.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GM-2100MWG-1A
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 7,995 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA7/ga-700mt-1a9/assets/GA-700MT-1A9.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GA-700MT-1A9
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 7,995 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GW/GWB/gw-b5600cd-1a3/assets/GW-B5600CD-1A3.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GW-B5600CD-1A3
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 10,495 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GW/GWB/gw-b5600cd-9/assets/GW-B5600CD-9.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GW-B5600CD-9
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 10,495 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/DW5/dw-5610mt-1/assets/DW-5610MT-1.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                DW-5610MT-1
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 17,995 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/DW5/dw-5900mt-1a4/assets/DW-5900MT-1A4.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                DW-5900MT-1A4
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 6,695 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/M/MT/MTG/mtg-b3000cxd-9a/assets/MTG-B3000CXD-9A.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                MTG-B3000CXD-9A
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 79,995 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/DW5/dw-5610sc-2/assets/DW-5610SC-2.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                DW-5610SC-2
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 7,295 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA2/ga-2100nnj-8a/assets/GA-2100NNJ-8A.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GA-2100NNJ-8A
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 12,495 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GA/GA2/ga-2100ah-6a/assets/GA-2100AH-6A.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GA-2100AH-6A
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 8,495 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMA/gma-s2100nc-4a/assets/GMA-S2100NC-4A.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GMA-S2100NC-4A
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 7,495 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMA/gma-s2100nc-4a2/assets/GMA-S2100NC-4A2.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GMA-S2100NC-4A
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 7,495 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMA/gma-s2100nc-8a/assets/GMA-S2100NC-8A.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GMA-S2100NC-8A
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 7,495 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/DW5/dw-5600nnj-2/assets/DW-5600NNJ-2.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                DW-5600NNJ-2
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 10,495 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMD/gmd-s5600nc-2/assets/GMD-S5600NC-2.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+                GMD-S5600NC-2
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 5,495 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/GMD/gmd-s5600nc-9/assets/GMD-S5600NC-9.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >GMD-S5600NC-9</h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 5,495 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/dwb/dw-b5600ah-6/assets/DW-B5600AH-6.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+              DW-B5600AH-6
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 7,495 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/D/DW/DW6/dw-6900nnj-1/assets/DW-6900NNJ-1.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+              DW-6900NNJ-1
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 12,495 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card card1"
+            style="
+              font-family: sans-serif;
+              width: 280px;
+              height: 400px;
+              margin-left: 12px;
+              margin-bottom: 30px;
+              position: relative;
+            "
+          >
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 280px"
+            >
+              <img
+                src="https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GM/gmb/gm-b2100ll-1a/assets/GM-B2100LL-1A.png.transform/product-panel/image.png"
+                alt="..."
+                height="196"
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 9pt;
+                  left: 9pt;
+                  display: inline-block;
+                  padding: 0 7px;
+                  background-color: white;
+                "
+              >
+                NEW
+              </p>
+              <img
+                src="./img/heart.png"
+                alt=""
+                width="35"
+                style="
+                  position: absolute;
+                  top: 5pt;
+                  right: 9pt;
+                  cursor: pointer;
+                "
+              />
+            </div>
+            <div class="p-0 card-body">
+              <p
+                class="card-text mx-2 mb-0 mt-2"
+                style="
+                  font-size: 1pc;
+                  line-height: 25px;
+                  font-weight: 500;
+                  height: 25px;
+                "
+              >
+                G-SHOCK
+              </p>
+              <h4
+                class="card-text m-0 mt-1 mx-2"
+                style="
+                  font-size: 18px;
+                  line-height: 21.6px;
+                  font-weight: 600;
+                  height: 43px;
+                "
+              >
+              GM-B2100LL-1A
+              </h4>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 8px; height: 10px"
+              >
+                MRP
+              </p>
+              <p
+                class="card-text m-0 mx-2"
+                style="font-size: 14px; font-weight: 500"
+              >
+                &#x20B9; 73,995 (incl. of all taxes)
               </p>
             </div>
           </div>
