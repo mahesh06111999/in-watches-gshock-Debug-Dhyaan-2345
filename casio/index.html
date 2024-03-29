@@ -189,15 +189,32 @@
     .card:hover {
       border: 1.5px solid black;
     }
+
+    .cards-container::-webkit-scrollbar {
+      width: 0px;
+    }
+
+    .filter-section::-webkit-scrollbar {
+      width: 5px;
+      background-color: rgb(230, 230, 230);
+    }
+
+    .filter-section::-webkit-scrollbar-thumb {
+      background-color: gray;
+      border-radius: 5px;
+    }
   </style>
 
   <body>
     <header>
       <!-- shreya -->
     </header>
-    <div class="contains">
-      <div class="container-fluid d-flex lh-lg h-600">
-        <div class="row m-3 p-2 border-end" style="width: 20%">
+    <div style="padding: 0 4rem">
+      <div style="display: flex">
+        <div
+          class="filter-section"
+          style="width: 20%; height: 100vh; overflow-y: scroll"
+        >
           <div>
             <!-- mahesh -->
             <p class="fw-bold">Sort</p>
@@ -421,8 +438,8 @@
                 <span
                   style="
                     display: block;
-                    width: 45px;
-                    height: 45px;
+                    width: 40px;
+                    height: 40px;
                     background-color: black;
                     padding: 10px;
                     box-sizing: border-box;
@@ -444,8 +461,8 @@
                 <span
                   style="
                     display: block;
-                    width: 45px;
-                    height: 45px;
+                    width: 40px;
+                    height: 40px;
                     background-color: #3599fe;
                     padding: 10px;
                     box-sizing: border-box;
@@ -466,8 +483,8 @@
                 <span
                   style="
                     display: block;
-                    width: 45px;
-                    height: 45px;
+                    width: 40px;
+                    height: 40px;
                     background-color: #339933;
                     padding: 10px;
                     box-sizing: border-box;
@@ -488,8 +505,8 @@
                 <span
                   style="
                     display: block;
-                    width: 45px;
-                    height: 45px;
+                    width: 40px;
+                    height: 40px;
                     background-color: red;
                     padding: 10px;
                     box-sizing: border-box;
@@ -510,8 +527,8 @@
                 <span
                   style="
                     display: block;
-                    width: 45px;
-                    height: 45px;
+                    width: 40px;
+                    height: 40px;
                     background-color: #cc9965;
                     padding: 10px;
                     box-sizing: border-box;
@@ -532,8 +549,8 @@
                 <span
                   style="
                     display: block;
-                    width: 45px;
-                    height: 45px;
+                    width: 40px;
+                    height: 40px;
                     background-color: #7f1481;
                     padding: 10px;
                     box-sizing: border-box;
@@ -554,8 +571,8 @@
                 <span
                   style="
                     display: block;
-                    width: 45px;
-                    height: 45px;
+                    width: 40px;
+                    height: 40px;
                     background-color: white;
                     border: 1px solid whitesmoke;
                     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -576,8 +593,8 @@
                 <span
                   style="
                     display: block;
-                    width: 45px;
-                    height: 45px;
+                    width: 40px;
+                    height: 40px;
                     background-color: #cccccc;
                     padding: 10px;
                     box-sizing: border-box;
@@ -598,8 +615,8 @@
                 <span
                   style="
                     display: block;
-                    width: 45px;
-                    height: 45px;
+                    width: 40px;
+                    height: 40px;
                     background-color: #feff0c;
                     padding: 10px;
                     box-sizing: border-box;
@@ -620,8 +637,8 @@
                 <span
                   style="
                     display: block;
-                    width: 45px;
-                    height: 45px;
+                    width: 40px;
+                    height: 40px;
                     background-color: #fea610;
                     padding: 10px;
                     box-sizing: border-box;
@@ -642,8 +659,8 @@
                 <span
                   style="
                     display: block;
-                    width: 45px;
-                    height: 45px;
+                    width: 40px;
+                    height: 40px;
                     background-color: #ffc0cc;
                     padding: 10px;
                     box-sizing: border-box;
@@ -664,8 +681,8 @@
                 <span
                   style="
                     display: block;
-                    width: 45px;
-                    height: 45px;
+                    width: 40px;
+                    height: 40px;
                     background-color: #f2f3f2;
                     padding: 10px;
                     box-sizing: border-box;
@@ -686,8 +703,8 @@
                 <span
                   style="
                     display: block;
-                    width: 45px;
-                    height: 45px;
+                    width: 40px;
+                    height: 40px;
                     background-color: #dddddd;
                     padding: 10px;
                     box-sizing: border-box;
@@ -708,8 +725,8 @@
                 <span
                   style="
                     display: block;
-                    width: 45px;
-                    height: 45px;
+                    width: 40px;
+                    height: 40px;
                     background-color: #c5bd97;
                     margin-bottom: 0px;
                   "
@@ -871,7 +888,10 @@
           <!-- mahesh section ends -->
         </div>
 
-        <div class="m-3 d-flex flex-wrap" style="width: 80%">
+        <div
+          class="m-3 d-flex flex-wrap cards-container"
+          style="width: 80%; height: 100vh; overflow-y: scroll"
+        >
           <!-- mohan & krishna &alfaj -->
           <div
             class="card card1"
