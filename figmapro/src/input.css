@@ -471,7 +471,7 @@ body > main:nth-of-type(3) .articles div div:nth-of-type(3) p:nth-of-type(2) {
   width: 387px;
 }
 
-.footer {
+section {
   width: 100%;
   max-width: 1320px;
   margin: auto;
@@ -481,8 +481,9 @@ body > main:nth-of-type(3) .articles div div:nth-of-type(3) p:nth-of-type(2) {
   padding: 0px 15px 0px 15px;
   gap: 0px;
   opacity: 0px;
+  margin-bottom: 60px;
 }
-.footer .foottext {
+section .foottext {
   width: 100%;
   max-width: 1320px;
   margin: auto;
@@ -491,9 +492,9 @@ body > main:nth-of-type(3) .articles div div:nth-of-type(3) p:nth-of-type(2) {
   line-height: 45px;
   text-align: center;
   justify-content: center;
-  font-family: Inter;
+  font-family: "Inter";
 }
-.footer .swipper {
+section .swipper {
   margin: 15px;
   display: flex;
   width: 1290px;
@@ -505,8 +506,8 @@ body > main:nth-of-type(3) .articles div div:nth-of-type(3) p:nth-of-type(2) {
   opacity: 0px;
   justify-content: center;
 }
-.footer .swipper > img {
-  width: 100px;
+section .swipper > img {
+  width: 70px;
   height: 30px;
   padding: 4.75px 0px 4.75px 0px;
   gap: 0px;
@@ -517,47 +518,86 @@ footer {
   width: 100%;
   max-width: 1320px;
   margin: auto;
-  height: 400.25px;
-  top: 200.3px;
-  padding: 0px;
-  gap: 0px;
-  opacity: 0px;
-  background: rgb(5, 7, 60);
-  color: #fef8f4;
   background-image: url("./bg.svg");
-}
-footer .cols {
+  height: auto;
+  background-color: #05073c;
   display: flex;
   flex-direction: column;
+  gap: 100px;
+  color: white;
 }
-footer .container {
+footer #fit1 {
+  position: relative;
   width: 1320px;
-  height: 655.13px;
-  left: 300px;
-  top: 10px;
-  padding: 0px;
+  top: 100px;
+  left: 200px;
+  font-family: "Inter";
   display: flex;
+  gap: 350px;
+  margin-bottom: 100px;
 }
-footer .container .footer-info {
+footer #snd {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+footer #snd #box1 {
+  display: flex;
+  flex-direction: column;
+  width: 339px;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  margin-left: 120px;
+  gap: 15px;
+}
+footer #snd #box2 {
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  gap: 15px;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+footer #snd #box3 {
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  gap: 15px;
+  font-size: 14px;
+}
+footer #snd #box4 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 130px;
+  gap: 15px;
+  font-size: 14px;
+  width: 330px;
+}
+footer #snd #box4 input,
+footer #snd #box4 button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.copyq {
+  background-color: #05073c;
+  color: #ffffff;
   width: 100%;
   max-width: 1320px;
-  padding: 94.31;
-  height: 185.13px;
-  left: 15px;
-  gap: 0px;
-  border: 0px 0px 1px 0px;
-  opacity: 0px;
-  background-image: url("./bg.svg");
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 500px;
+  padding: 10px;
 }
-footer .container .footer-info span {
-  color: #fef8f4;
-  font-family: Inter;
-  font-size: 19.69px;
-  font-weight: 500;
-  line-height: 37.5px;
-  text-align: left;
-  justify-content: space-between;
-  gap: 100px;
+.copyq p {
+  margin-left: 100px;
+  margin: 40px;
 }
 
 .container {
@@ -598,7 +638,7 @@ footer .container .footer-info span {
   height: 162px;
   border: 2px solid transparent;
   border-radius: 12px;
-  background-color: #EB662B;
+  background-color: #eb662b;
 }
 .orange-box .text {
   display: flex;
