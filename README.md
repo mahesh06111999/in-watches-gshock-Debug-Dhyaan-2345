@@ -56,7 +56,7 @@ To run this project locally:
 To get started with this project, ensure you have Sass installed. If not, you can install it using npm (Node Package Manager):
 
 - ```bash
-- npm install -g sass
+ npm install -g sass
 
 ## Contributors
 
