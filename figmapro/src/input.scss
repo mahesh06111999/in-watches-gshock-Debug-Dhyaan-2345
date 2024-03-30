@@ -878,6 +878,15 @@ main{
     left: 914.98px;
   }
    
+  // for media qwery
+  @media all and (min-width: 2000px) {
+    .alfaj-container {
+      max-width: 1920px;
+      margin-right: auto;
+      margin-left: auto;
+      flex-wrap: wrap;
+    }
+  
 }
 
 // second part starts here
