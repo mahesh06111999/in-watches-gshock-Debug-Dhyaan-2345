@@ -9,7 +9,7 @@ Casio G-Shock watches at their official website. Explore robust timepieces craft
 ### Screenshots
 
 #### Desktop View
-<img src="./assets/largeScreen.png" alt="Desktop View" style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
+<img src="./desktopview.png" alt="">
 
 ## Features
 
@@ -23,7 +23,9 @@ Casio G-Shock watches at their official website. Explore robust timepieces craft
 
 - **HTML**: Provides the structure and content for the web page.
 - **CSS**: Handles the UI and styling, ensuring an appealing visual presentation.
-- **Sass**: Handles the UI and styling, ensuring an appealing visual presentation.
+- **Sass**: Sass is a preprocessor scripting language that is interpreted or compiled into CSS. It adds features like variables, nested rules, mixins, functions, and more, making CSS more maintainable and efficient.
+- **Bootstrap**: Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
+
 
 ### Design Elements
 
@@ -41,13 +43,20 @@ Casio G-Shock watches at their official website. Explore robust timepieces craft
 5. **Fonts & Icons:**
   Integrates Google Fonts and FontAwesome icons for enhanced typography and visual elements. By leveraging these resources, the website achieves a modern and visually appealing design, improving readability and user engagement.   
 
-## How to Use
+## How to Use[Casio]
 
 To run this project locally:
 
 1. Clone this repository to your local machine.
 2. Open the `index.html` file in your preferred web browser.
 3. Explore the Casio experience right from your device.
+
+## Project Setup(Figma)
+
+To get started with this project, ensure you have Sass installed. If not, you can install it using npm (Node Package Manager):
+
+- ```bash
+- npm install -g sass
 
 ## Contributors
 
