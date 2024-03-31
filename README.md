@@ -4,7 +4,7 @@ Casio G-Shock watches at their official website. Explore robust timepieces craft
 
 ### Deployed Link
 
-[Live Demo]((https://shimmering-hummingbird-825f31.netlify.app/))
+[Live Demo](https://shimmering-hummingbird-825f31.netlify.app/)
 
 
 ## Features
