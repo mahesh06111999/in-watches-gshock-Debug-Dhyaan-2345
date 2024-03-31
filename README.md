@@ -4,12 +4,8 @@ Casio G-Shock watches at their official website. Explore robust timepieces craft
 
 ### Deployed Link
 
-[Live Demo](https://6607b71de4397f6cd66815f7--eclectic-kangaroo-054185.netlify.app/)
+[Live Demo]((https://shimmering-hummingbird-825f31.netlify.app/))
 
-### Screenshots
-
-#### Desktop View
-<img src="./desktopview.png" alt="">
 
 ## Features
 
