@@ -481,28 +481,26 @@ section .swipper > img {
   opacity: 0px;
 }
 
-main .alfaj-container {
+.alfaj-container {
   width: auto;
   margin-top: 105px;
 }
-main .alfaj-container .item-1container {
+.alfaj-container .item-1container {
   margin: auto;
-  width: 1320px;
-  height: 521.59px;
+  max-width: 1320px;
+  min-height: 521.59px;
 }
-main .alfaj-container .item-1container .flex-box {
-  width: 100%;
+.alfaj-container .item-1container .flex-box {
   height: auto;
   display: flex;
   justify-content: space-between;
 }
-main .alfaj-container .item-1container .flex-box h2 {
-  margin: 0;
+.alfaj-container .item-1container .flex-box h2 {
   width: 212.4px;
   height: 45px;
   margin-top: 20px;
   margin-left: 15px;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 30px;
   font-weight: 700;
   line-height: 45px;
@@ -510,51 +508,55 @@ main .alfaj-container .item-1container .flex-box h2 {
   text-align: left;
   color: #05073c;
 }
-main .alfaj-container .item-1container .flex-box div {
+.alfaj-container .item-1container .flex-box div {
   width: 220px;
   height: 60px;
   margin-top: 5px;
   border-radius: 12px;
   border: 1px solid #e7e6e6;
 }
-main .alfaj-container .item-1container .flex-box div p {
-  width: 100.73px;
+.alfaj-container .item-1container .flex-box div p {
   height: 28.13px;
-  padding: 15.94px, 20.8px, 15.93px, 21px;
-  margin-left: 21px;
+  padding: 15.94px 0px 15.93px 21px;
   color: #05073c;
-  font-family: Inter;
-  font-size: 14px;
+  font-family: "Inter";
+  font-size: 14.3px;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
+  color: #05073C;
 }
-main .alfaj-container .item-1container .flex-box2 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+.alfaj-container .item-1container .flex-box2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
-  width: 1290px;
-  height: 416.59px;
+  max-width: 1290px;
+  min-height: 416.59px;
   margin-top: 40px;
   margin-left: 15px;
   background: #ffffff;
 }
-main .alfaj-container .item-1container .flex-box2 div {
+.alfaj-container .item-1container .flex-box2 div {
   border-radius: 12px;
+  width: 300px;
+  height: 392.59px;
+  color: #ffffff;
+  border: 1px solid #e7e6e6;
 }
-main .alfaj-container .item-1container .flex-box2 div img {
+.alfaj-container .item-1container .flex-box2 div img {
   width: 100%;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
-main .alfaj-container .item-1container .flex-box2 div p {
+.alfaj-container .item-1container .flex-box2 div p {
   padding: 0;
   width: 86.68px;
   height: 24.38px;
   margin-top: 10px;
   margin-left: 42px;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 12px;
   font-weight: 400;
   line-height: 24px;
@@ -562,12 +564,12 @@ main .alfaj-container .item-1container .flex-box2 div p {
   text-align: left;
   color: #717171;
 }
-main .alfaj-container .item-1container .flex-box2 div h3 {
+.alfaj-container .item-1container .flex-box2 div h3 {
   width: 249.4px;
   height: 45px;
   margin-top: 6px;
   margin-left: 21px;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -575,54 +577,56 @@ main .alfaj-container .item-1container .flex-box2 div h3 {
   text-align: left;
   color: #05073c;
 }
-main .alfaj-container .item-1container .flex-box2 div h6 {
+.alfaj-container .item-1container .flex-box2 div h6 {
   margin: 0;
   width: 54.59px;
   height: 17px;
   margin-top: 10px;
   margin-left: 101px;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 12px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
 }
-main .alfaj-container .item-1container .flex-box2 div div {
+.alfaj-container .item-1container .flex-box2 div div {
   display: flex;
   width: 258px;
   height: 41px;
   margin-top: 14.37px;
   margin-left: 21px;
-  padding: 11px, 0px, 0px, 0px;
-  border: 1px, 0px, 0px, 0px;
   border-top: 1px solid #e7e6e6;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
 }
-main .alfaj-container .item-1container .flex-box2 div div p {
+.alfaj-container .item-1container .flex-box2 div div p {
   margin: 0;
   width: 60.77px;
   height: 24.38px;
   margin-top: 13.82px;
   padding: 3px, 0px, 4.2px, 0px;
+  margin-bottom: 2.8px;
   text-align: right;
 }
-main .alfaj-container .item-1container .flex-box2 div div div {
+.alfaj-container .item-1container .flex-box2 div div div {
   width: 90.44px;
   height: 30px;
   margin-top: 11px;
   margin-left: 106px;
-  font-family: Inter;
+  font-family: "Inter";
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
   border: none;
 }
-main .alfaj-container .item-1container .flex-box2 div div div span {
+.alfaj-container .item-1container .flex-box2 div div div span {
   width: 34.48px;
   height: 17px;
   margin-top: 3px;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
@@ -630,43 +634,43 @@ main .alfaj-container .item-1container .flex-box2 div div div span {
   text-align: left;
   color: #05073c;
 }
-main .alfaj-container .item-1container .flex-box2 div div div b {
+.alfaj-container .item-1container .flex-box2 div div div b {
   padding: 0;
   width: 56.36px;
   height: 21px;
   color: #05073c;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 15px;
   font-weight: 500;
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
 }
-main .alfaj-container .bg-cover {
+.alfaj-container .bg-cover {
   margin: auto;
   position: relative;
-  width: 1320px;
+  max-width: 1320px;
   height: 750px;
   border-radius: 12px;
-  background-image: url(big\ card.png);
+  background-image: url("./big card.png");
   background-position: center;
   background-size: cover;
   margin-bottom: 115px;
 }
-main .alfaj-container .bg-cover .col {
+.alfaj-container .bg-cover .col {
   position: absolute;
   width: 439.98px;
   height: 350.38px;
   top: 199.82px;
   left: 110px;
 }
-main .alfaj-container .bg-cover .col h2 {
+.alfaj-container .bg-cover .col h2 {
   margin: 0;
   width: 344.08px;
   height: 104px;
   margin-top: 15px;
   margin-left: 15px;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 39px;
   font-weight: 700;
   line-height: 52px;
@@ -674,12 +678,12 @@ main .alfaj-container .bg-cover .col h2 {
   text-align: left;
   color: #05073c;
 }
-main .alfaj-container .bg-cover .col p {
+.alfaj-container .bg-cover .col p {
   width: 408.36px;
   height: 76.25px;
   margin-top: 14px;
   margin-left: 15px;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 15px;
   font-weight: 400;
   line-height: 28px;
@@ -687,7 +691,7 @@ main .alfaj-container .bg-cover .col p {
   text-align: left;
   color: #05073c;
 }
-main .alfaj-container .bg-cover .col .buttonExplore {
+.alfaj-container .bg-cover .col div {
   box-sizing: border-box;
   width: 221.88px;
   height: 62px;
@@ -698,33 +702,33 @@ main .alfaj-container .bg-cover .col .buttonExplore {
   border-radius: 12px;
   background: #eb662b;
   color: white;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 15px;
   font-weight: 500;
   line-height: 28px;
   letter-spacing: 0em;
   text-align: center;
 }
-main .alfaj-container .bg-cover .item-3 {
-  width: 280px;
-  height: 240px;
+.alfaj-container .bg-cover .item-3 {
+  max-width: 280px;
+  max-height: 240px;
   border-radius: 12px;
   background: #ffffff;
 }
-main .alfaj-container .bg-cover .item-3 img {
+.alfaj-container .bg-cover .item-3 img {
   width: 60px;
   height: 60px;
   margin-top: 40px;
   margin-left: 110px;
   margin-right: 110px;
 }
-main .alfaj-container .bg-cover .item-3 p {
+.alfaj-container .bg-cover .item-3 p {
   margin: 0;
-  width: 132.56px;
+  max-width: 132.56px;
   height: 56px;
   margin-left: 73.82px;
   margin-top: 20px;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 39px;
   font-weight: 700;
   line-height: 56px;
@@ -732,30 +736,33 @@ main .alfaj-container .bg-cover .item-3 p {
   text-align: center;
   color: #eb662b;
 }
-main .alfaj-container .bg-cover .item-3 h6 {
+.alfaj-container .bg-cover .item-3 h6 {
   margin-top: 0;
-  width: 123.84px;
+  max-width: 123.84px;
   height: 28.13px;
   margin-left: 78.18px;
   color: #05073c;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 14px;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0em;
   text-align: center;
 }
-main .alfaj-container .bg-cover .align1 {
+
+.align1 {
   position: absolute;
   top: 120px;
   left: 604.98px;
 }
-main .alfaj-container .bg-cover .align2 {
+
+.align2 {
   position: absolute;
   top: 390px;
   left: 604.98px;
 }
-main .alfaj-container .bg-cover .align3 {
+
+.align3 {
   position: absolute;
   top: 255px;
   left: 914.98px;
@@ -963,7 +970,6 @@ footer #snd #box4 button {
   }
   .container3 div {
     display: inline-block;
-    margin: auto;
   }
 }
 .container4 {
