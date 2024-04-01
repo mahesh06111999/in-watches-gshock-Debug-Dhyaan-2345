@@ -101,7 +101,7 @@ header {
   align-items: center;
   background-color: #ffffff;
   padding: 30px;
-  max-width: 1270px;
+  max-width: 1290px;
   height: 80px;
   padding: 10px;
   border-radius: 12px;
@@ -135,17 +135,108 @@ header {
 }
 
 #part2 {
-  background-color: #eb662c;
   margin-top: 50px;
   max-width: 1290px;
   height: 500px;
   border-radius: 12px;
-  margin-left: 30px;
-  background-image: url("./div.hero__slide.svg");
+  margin-left: 15px;
+  display: flex;
+  color: #ffffff;
+}
+#part2 div:first-child {
+  width: 660px;
+  height: 500px;
+  border-radius: 12px 0 0 12px;
+  background-color: #eb662c;
+  display: flex;
+  flex-direction: column;
+  padding-left: 150px;
+  align-items: flex-start;
+  justify-content: center;
+}
+#part2 div:first-child h1:nth-of-type(1) {
+  height: 52px;
+  font-family: "Inter";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+}
+#part2 div:first-child h1:nth-of-type(1) span {
+  background-image: url("./brush.svg fill.png");
+  color: #eb662b;
+  width: 231px;
   background-size: cover;
-  background-position: center;
+}
+#part2 div:first-child h1:nth-of-type(2) {
+  width: 307.22px;
+  height: 100px;
+  font-family: "Inter";
+  font-size: 39.84px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+}
+#part2 div:first-child p:nth-of-type(1) {
+  font-family: "Inter";
+  font-size: 14.77px;
+  font-weight: 400;
+  width: -moz-max-content;
+  width: max-content;
+  line-height: 28.13px;
+  text-align: left;
+  margin-top: 8px;
+}
+#part2 div:first-child p:last-child {
+  margin-top: 30px;
+  width: 166.86px;
+  height: 62px;
+  padding: 21px 35.8px 21px 36px;
+  gap: 0px;
+  border-radius: 12px;
+  opacity: 0px;
+  background-color: #ffffff;
+  font-family: "Inter";
+  font-size: 14.41px;
+  font-weight: 500;
+  text-align: center;
+  color: #eb662b;
+}
+#part2 div:last-child {
+  width: 630px;
+  height: 500px;
+  border-radius: 0 12px 12px 0;
+  background-image: url("./image (1).png");
 }
 
+@media (max-width: 1120px) {
+  #part2 div:first-child {
+    padding-left: 100px;
+  }
+}
+@media (max-width: 980px) {
+  #part2 div:first-child {
+    padding-left: 70px;
+  }
+}
+@media (max-width: 880px) {
+  #part2 div:first-child {
+    padding-left: 30px;
+  }
+}
+@media (max-width: 780px) {
+  #part2 div:first-child {
+    width: 100%;
+    border-radius: 12px;
+    align-items: center;
+  }
+  #part2 div:first-child h1:nth-of-type(2) {
+    text-align: center;
+  }
+  #part2 div:last-child {
+    display: none;
+  }
+}
 #special {
   margin-top: 115px;
   margin-left: 35px;
@@ -417,21 +508,21 @@ main .alfaj-container .item-1container .flex-box h2 {
   line-height: 45px;
   letter-spacing: 0em;
   text-align: left;
-  color: #05073C;
+  color: #05073c;
 }
 main .alfaj-container .item-1container .flex-box div {
   width: 220px;
   height: 60px;
   margin-top: 5px;
   border-radius: 12px;
-  border: 1px solid #E7E6E6;
+  border: 1px solid #e7e6e6;
 }
 main .alfaj-container .item-1container .flex-box div p {
   width: 100.73px;
   height: 28.13px;
   padding: 15.94px, 20.8px, 15.93px, 21px;
   margin-left: 21px;
-  color: #05073C;
+  color: #05073c;
   font-family: Inter;
   font-size: 14px;
   font-weight: 400;
@@ -447,7 +538,7 @@ main .alfaj-container .item-1container .flex-box2 {
   height: 416.59px;
   margin-top: 40px;
   margin-left: 15px;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 main .alfaj-container .item-1container .flex-box2 div {
   border-radius: 12px;
@@ -482,7 +573,7 @@ main .alfaj-container .item-1container .flex-box2 div h3 {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-  color: #05073C;
+  color: #05073c;
 }
 main .alfaj-container .item-1container .flex-box2 div h6 {
   margin: 0;
@@ -505,7 +596,7 @@ main .alfaj-container .item-1container .flex-box2 div div {
   margin-left: 21px;
   padding: 11px, 0px, 0px, 0px;
   border: 1px, 0px, 0px, 0px;
-  border-top: 1px solid #E7E6E6;
+  border-top: 1px solid #e7e6e6;
 }
 main .alfaj-container .item-1container .flex-box2 div div p {
   margin: 0;
@@ -537,13 +628,13 @@ main .alfaj-container .item-1container .flex-box2 div div div span {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-  color: #05073C;
+  color: #05073c;
 }
 main .alfaj-container .item-1container .flex-box2 div div div b {
   padding: 0;
   width: 56.36px;
   height: 21px;
-  color: #05073C;
+  color: #05073c;
   font-family: Inter;
   font-size: 15px;
   font-weight: 500;
@@ -581,7 +672,7 @@ main .alfaj-container .bg-cover .col h2 {
   line-height: 52px;
   letter-spacing: 0em;
   text-align: left;
-  color: #05073C;
+  color: #05073c;
 }
 main .alfaj-container .bg-cover .col p {
   width: 408.36px;
@@ -594,7 +685,7 @@ main .alfaj-container .bg-cover .col p {
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
-  color: #05073C;
+  color: #05073c;
 }
 main .alfaj-container .bg-cover .col .buttonExplore {
   box-sizing: border-box;
@@ -605,7 +696,7 @@ main .alfaj-container .bg-cover .col .buttonExplore {
   padding: 17px, 35.8px, 17px, 36px;
   padding-top: 17px;
   border-radius: 12px;
-  background: #EB662B;
+  background: #eb662b;
   color: white;
   font-family: Inter;
   font-size: 15px;
@@ -618,7 +709,7 @@ main .alfaj-container .bg-cover .item-3 {
   width: 280px;
   height: 240px;
   border-radius: 12px;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 main .alfaj-container .bg-cover .item-3 img {
   width: 60px;
@@ -639,14 +730,14 @@ main .alfaj-container .bg-cover .item-3 p {
   line-height: 56px;
   letter-spacing: 0em;
   text-align: center;
-  color: #EB662B;
+  color: #eb662b;
 }
 main .alfaj-container .bg-cover .item-3 h6 {
   margin-top: 0;
   width: 123.84px;
   height: 28.13px;
   margin-left: 78.18px;
-  color: #05073C;
+  color: #05073c;
   font-family: Inter;
   font-size: 14px;
   font-weight: 400;
@@ -675,6 +766,7 @@ footer {
   max-width: 1320px;
   margin: auto;
   background-image: url("./bg.svg");
+  background-repeat: no-repeat;
   height: auto;
   background-color: #05073c;
   display: flex;
