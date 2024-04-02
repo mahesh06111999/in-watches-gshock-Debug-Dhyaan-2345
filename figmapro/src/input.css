@@ -97,12 +97,13 @@ header {
 }
 #hero > #navlist {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
   padding: 30px;
   max-width: 1290px;
-  height: 80px;
+  min-height: 80px;
   padding: 10px;
   border-radius: 12px;
   position: relative;
@@ -255,6 +256,7 @@ header {
 .spccards .p1 {
   color: #eb662c;
   font-size: 14px;
+  padding-top: 15px;
 }
 .spccards .p2 {
   font-size: 14.88px;
