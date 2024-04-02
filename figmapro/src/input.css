@@ -84,7 +84,7 @@ header {
   }
 }
 #hero {
-  background-image: url("./SVG (1).svg");
+  background-image: url("./img/SVG (1).svg");
   max-width: 1920px;
   height: 573px;
 }
@@ -163,7 +163,7 @@ header {
   text-align: left;
 }
 #part2 div:first-child h1:nth-of-type(1) span {
-  background-image: url("./brush.svg fill.png");
+  background-image: url("./img/brush.svg fill.png");
   color: #eb662b;
   width: 231px;
   background-size: cover;
@@ -206,7 +206,7 @@ header {
   width: 630px;
   height: 500px;
   border-radius: 0 12px 12px 0;
-  background-image: url("./image (1).png");
+  background-image: url("./img/image (1).png");
 }
 
 @media (max-width: 1120px) {
@@ -280,7 +280,7 @@ body > main:nth-of-type(3) {
   padding: 0;
 }
 body > main:nth-of-type(3) .banner {
-  background-image: url("./banner.png");
+  background-image: url("./img/banner.png");
   max-width: 1920px;
   height: 721.25px;
   display: flex;
@@ -419,19 +419,19 @@ body > main:nth-of-type(3) .articles div div p:nth-of-type(2) {
   width: 366.92px;
 }
 body > main:nth-of-type(3) .articles div div:nth-of-type(1) div {
-  background-image: url("./image1.png");
+  background-image: url("./img/image1.png");
 }
 body > main:nth-of-type(3) .articles div div:nth-of-type(1) p:nth-of-type(2) {
   width: 366.92px;
 }
 body > main:nth-of-type(3) .articles div div:nth-of-type(2) div {
-  background-image: url("./image2.png");
+  background-image: url("./img/image2.png");
 }
 body > main:nth-of-type(3) .articles div div:nth-of-type(2) p:nth-of-type(2) {
   width: 378px;
 }
 body > main:nth-of-type(3) .articles div div:nth-of-type(3) div {
-  background-image: url("./image3.png");
+  background-image: url("./img/image3.png");
 }
 body > main:nth-of-type(3) .articles div div:nth-of-type(3) p:nth-of-type(2) {
   width: 387px;
@@ -441,9 +441,7 @@ section {
   width: 100%;
   max-width: 1320px;
   margin: auto;
-  height: 115px;
-  top: 6868.3px;
-  left: 300px;
+  min-height: 115px;
   padding: 0px 15px 0px 15px;
   gap: 0px;
   opacity: 0px;
@@ -457,26 +455,24 @@ section .foottext {
   font-weight: 700;
   line-height: 45px;
   text-align: center;
-  justify-content: center;
   font-family: "Inter";
 }
 section .swipper {
-  margin: 15px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   max-width: 1290px;
-  height: 30px;
-  top: 85px;
-  left: 15px;
-  gap: 100px;
+  min-height: 30px;
+  -moz-column-gap: 120px;
+       column-gap: 120px;
   padding: 0px 45px 0px 45px;
   opacity: 0px;
   justify-content: center;
 }
 section .swipper > img {
-  width: 70px;
+  width: 100px;
   height: 30px;
-  padding: 4.75px 0px 4.75px 0px;
+  margin-top: 40px;
   gap: 0px;
   opacity: 0px;
 }
@@ -525,7 +521,7 @@ section .swipper > img {
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
-  color: #05073C;
+  color: #05073c;
 }
 .alfaj-container .item-1container .flex-box2 {
   display: flex;
@@ -652,7 +648,7 @@ section .swipper > img {
   max-width: 1320px;
   height: 750px;
   border-radius: 12px;
-  background-image: url("./big card.png");
+  background-image: url("./img/big card.png");
   background-position: center;
   background-size: cover;
   margin-bottom: 115px;
@@ -769,91 +765,226 @@ section .swipper > img {
 }
 
 footer {
-  width: 100%;
-  max-width: 1320px;
+  max-width: 1960px;
   margin: auto;
-  background-image: url("./bg.svg");
+  background-image: url("./img/bg.svg");
   background-repeat: no-repeat;
   height: auto;
   background-color: #05073c;
   display: flex;
   flex-direction: column;
-  gap: 100px;
   color: white;
+  margin-top: 120px;
+  padding-left: 320px;
+  padding-right: 320px;
+  font-family: "Inter";
 }
 footer #fit1 {
-  position: relative;
   max-width: 1320px;
-  top: 100px;
   font-family: "Inter";
+  padding: 94.31px 185px 64.82px 95px;
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 100px;
+  width: 100%;
+  justify-content: space-between;
+}
+footer #fit1 p:first-child {
+  text-align: start;
+}
+footer #fit1 p:last-child {
+  text-align: end;
 }
 footer #snd {
   display: flex;
   flex-direction: row;
-  gap: 70px;
-  flex-wrap: wrap;
+  gap: 100px;
+  padding: 0 15px;
+  margin: 40px 0;
+  height: 390px;
 }
 footer #snd #box1 {
   display: flex;
   flex-direction: column;
-  width: 339px;
-  font-family: "Inter";
-  font-size: 12px;
+  max-width: 440px;
+  font-size: 14.41px;
   font-weight: 400;
   line-height: 28.13px;
   text-align: left;
-  margin-left: 120px;
-  gap: 15px;
+  padding: 20px 15px;
+  gap: 29px;
+}
+footer #snd #box1 p:first-child {
+  line-height: 28.13px;
+}
+footer #snd #box1 div {
+  display: flex;
+  flex-direction: column;
+  max-width: 356.62px;
+  gap: 18.12px;
+}
+footer #snd #box1 div p:last-child {
+  font-size: 14.88px;
 }
 footer #snd #box2 {
   display: flex;
   flex-direction: column;
-  width: 130px;
-  gap: 15px;
-  font-size: 14px;
-  margin-bottom: 40px;
+  max-width: 128.23px;
+  gap: 29px;
+  padding: 20px 15px;
+}
+footer #snd #box2 p:first-child {
+  line-height: 28.13px;
+}
+footer #snd #box2 div {
+  display: flex;
+  flex-direction: column;
+  max-width: 356.62px;
+  gap: 18.12px;
+}
+footer #snd #box2 div p {
+  font-size: 14.65px;
 }
 footer #snd #box3 {
   display: flex;
   flex-direction: column;
-  width: 130px;
-  gap: 15px;
-  font-size: 14px;
+  max-width: 120px;
+  gap: 29px;
+  padding: 20px 15px;
+}
+footer #snd #box3 p:first-child {
+  line-height: 28.13px;
+}
+footer #snd #box3 div {
+  display: flex;
+  flex-direction: column;
+  max-width: 356.62px;
+  gap: 18.12px;
+}
+footer #snd #box3 div p {
+  font-size: 14.77px;
 }
 footer #snd #box4 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 130px;
-  gap: 15px;
-  font-size: 14px;
-  width: 330px;
+  gap: 29px;
+  max-width: 330px;
+  padding: 20px 15px;
 }
-footer #snd #box4 input,
-footer #snd #box4 button {
-  padding: 10px;
-  border-radius: 10px;
+footer #snd #box4 div:first-of-type {
+  display: flex;
+  flex-direction: column;
+  max-width: 356.62px;
+  gap: 14.12px;
+}
+footer #snd #box4 div:first-of-type p {
+  max-width: 287.56px;
+  font-size: 14.65px;
+  height: 48.13px;
+  line-height: 28.13px;
+}
+footer #snd #box4 div:first-of-type div {
+  max-width: 300px;
+  font-size: 14.53px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  flex-direction: row;
+  gap: 0;
+  border: 1px solid #e7e6e6;
+  border-radius: 12px;
+}
+footer #snd #box4 div:first-of-type div input {
+  padding: 20px 0px 20px 21px;
+  max-width: 152.43px;
+  border: none;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  outline: none;
+}
+footer #snd #box4 div:first-of-type div button {
+  padding: 20px 21px 20px 0px;
+  max-width: 147.57px;
+  background-color: #ffffff;
+  font-size: 14.53px;
+  text-align: right;
+  font-weight: 400;
+  color: #05073c;
+  border: none;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+footer #snd #box4 div:last-child ul {
+  padding-left: 41px;
+  list-style-type: none;
+}
+footer #snd #box4 div:last-child ul li {
+  margin-top: 10px;
 }
 
 .copyq {
   background-color: #05073c;
   color: #ffffff;
-  width: 100%;
-  max-width: 1320px;
+  max-width: 1960px;
   margin: auto;
   display: flex;
-  justify-content: space-around;
+  font-size: 14.53px;
   align-items: center;
-  padding: 10px;
+  font-family: "Inter";
+  justify-content: space-between;
+  padding: 24px 330px 24px 335px;
 }
-.copyq p {
-  margin-left: 100px;
-  margin: 40px;
+.copyq div:first-child {
+  width: 186.81px;
+  height: 20px;
+  line-height: 28.13px;
 }
 
+@media (max-width: 1900px) {
+  footer {
+    padding-left: 0;
+    padding-right: 0;
+    align-items: center;
+  }
+  .copyq {
+    padding-left: 95px;
+    padding-right: 95px;
+  }
+}
+@media (max-width: 904px) {
+  footer #snd {
+    gap: 20px;
+  }
+}
+@media (max-width: 680px) {
+  footer #fit1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  footer #snd {
+    flex-direction: column;
+    gap: 0px;
+    margin: auto;
+  }
+  footer #snd #box1 div {
+    display: none;
+  }
+  footer #snd #box2 div {
+    display: none;
+  }
+  footer #snd #box3 div {
+    display: none;
+  }
+  footer #snd #box4 div:nth-of-type(1) {
+    display: none;
+  }
+  footer #snd #box4 div:nth-of-type(2) {
+    display: none;
+  }
+  .copyq {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 .container {
   max-width: 1320px;
   border: 2px solid transparent;
