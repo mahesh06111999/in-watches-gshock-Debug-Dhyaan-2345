@@ -97,7 +97,6 @@ header {
 }
 #hero > #navlist {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
@@ -135,6 +134,16 @@ header {
   margin-right: 10px;
 }
 
+@media (max-width: 660px) {
+  #navlist div:nth-child(1) span {
+    display: none;
+  }
+}
+@media (max-width: 660px) {
+  #navlist div:nth-child(3) span {
+    display: none;
+  }
+}
 #part2 {
   margin-top: 50px;
   max-width: 1290px;
@@ -387,15 +396,15 @@ body > main:nth-of-type(3) .articles div {
 body > main:nth-of-type(3) .articles div div {
   display: flex;
   flex-direction: column;
-  width: 410px;
+  max-width: 410px;
   gap: 0px;
   margin-top: 22.5px;
   height: -moz-max-content;
   height: max-content;
 }
 body > main:nth-of-type(3) .articles div div div {
-  width: 409.98px;
-  height: 299.98px;
+  width: 100%;
+  height: 300px;
   border-radius: 12px;
   margin-bottom: 33px;
 }
@@ -418,7 +427,7 @@ body > main:nth-of-type(3) .articles div div p:nth-of-type(2) {
   font-weight: 500;
   line-height: 27px;
   text-align: left;
-  width: 366.92px;
+  max-width: 366.92px;
 }
 body > main:nth-of-type(3) .articles div div:nth-of-type(1) div {
   background-image: url("./img/image1.png");
@@ -648,24 +657,29 @@ section .swipper > img {
   margin: auto;
   position: relative;
   max-width: 1320px;
-  height: 750px;
+  min-height: 750px;
   border-radius: 12px;
   background-image: url("./img/big card.png");
   background-position: center;
   background-size: cover;
   margin-bottom: 115px;
 }
-.alfaj-container .bg-cover .col {
-  position: absolute;
-  width: 439.98px;
-  height: 350.38px;
-  top: 199.82px;
-  left: 110px;
+.alfaj-container .bg-cover div:first-child {
+  max-width: 549px;
+  display: flex;
+  justify-content: flex-end;
 }
-.alfaj-container .bg-cover .col h2 {
+.alfaj-container .bg-cover div:first-child .col {
+  max-width: 439.98px;
+  min-height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.alfaj-container .bg-cover div:first-child .col h2 {
   margin: 0;
-  width: 344.08px;
-  height: 104px;
+  max-width: 344.08px;
+  min-height: 104px;
   margin-top: 15px;
   margin-left: 15px;
   font-family: "Inter";
@@ -676,9 +690,9 @@ section .swipper > img {
   text-align: left;
   color: #05073c;
 }
-.alfaj-container .bg-cover .col p {
-  width: 408.36px;
-  height: 76.25px;
+.alfaj-container .bg-cover div:first-child .col p {
+  max-width: 408.36px;
+  min-height: 76.25px;
   margin-top: 14px;
   margin-left: 15px;
   font-family: "Inter";
@@ -689,7 +703,7 @@ section .swipper > img {
   text-align: left;
   color: #05073c;
 }
-.alfaj-container .bg-cover .col div {
+.alfaj-container .bg-cover div:first-child .col .buttonExplore {
   box-sizing: border-box;
   width: 221.88px;
   height: 62px;
@@ -748,6 +762,11 @@ section .swipper > img {
   text-align: center;
 }
 
+@media all and (max-width: 608px) {
+  .bg-cover div :first-child {
+    justify-content: flex-start;
+  }
+}
 .align1 {
   position: absolute;
   top: 120px;
@@ -766,6 +785,19 @@ section .swipper > img {
   left: 914.98px;
 }
 
+@media (max-width: 1203px) {
+  .align3 {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .align1 {
+    display: none;
+  }
+  .align2 {
+    display: none;
+  }
+}
 footer {
   max-width: 1960px;
   margin: auto;
