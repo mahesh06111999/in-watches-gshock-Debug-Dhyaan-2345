@@ -2,9 +2,20 @@
 
 Casio G-Shock watches at their official website. Explore robust timepieces crafted for adventure, integrating advanced technology and contemporary designs.The design is crafted using HTML, CSS,Sass and Bootstrap, with a focus on responsiveness and usability.
 
+## Project Type
+Frontend 
+
 ### Deployed Link
 
 [Live Demo](https://shimmering-hummingbird-825f31.netlify.app/)
+
+## Directory Structure
+my-app/
+├─ casio/
+├─ Figma
+
+## Video Walkthrough of the project
+(https://youtu.be/JBK6YHU7kDo?si=gBmLVC34xDrqaDsJ)
 
 
 ## Features
