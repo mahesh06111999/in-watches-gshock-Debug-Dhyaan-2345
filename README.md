@@ -2,21 +2,9 @@
 
 Casio G-Shock watches at their official website. Explore robust timepieces crafted for adventure, integrating advanced technology and contemporary designs.The design is crafted using HTML, CSS,Sass and Bootstrap, with a focus on responsiveness and usability.
 
-## Project Type
-Frontend 
-
 ### Deployed Link
 
 [Live Demo](https://shimmering-hummingbird-825f31.netlify.app/)
-
-## Directory Structure
-my-app/
-├─ casio/
-├─ Figma
-
-## Video Walkthrough of the project
-(https://youtu.be/JBK6YHU7kDo?si=gBmLVC34xDrqaDsJ)
-
 
 ## Features
 
@@ -33,7 +21,6 @@ my-app/
 - **Sass**: Sass is a preprocessor scripting language that is interpreted or compiled into CSS. It adds features like variables, nested rules, mixins, functions, and more, making CSS more maintainable and efficient.
 - **Bootstrap**: Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
 
-
 ### Design Elements
 
 1. **Media Queries:**
@@ -45,10 +32,10 @@ my-app/
 3. **Overlay:**
    The overlay feature is integrated to enhance the visual presentation of images. By adding a translucent layer over images, overlay improves readability and focus, making text content more prominent and appealing.
 4. **Responsive Design:**
-  Utilizes media queries and flex layouts to adapt the page layout across various devices, ensuring a seamless browsing experience on mobile phones, tablets, and desktop computers.
+   Utilizes media queries and flex layouts to adapt the page layout across various devices, ensuring a seamless browsing experience on mobile phones, tablets, and desktop computers.
 
 5. **Fonts & Icons:**
-  Integrates Google Fonts and FontAwesome icons for enhanced typography and visual elements. By leveraging these resources, the website achieves a modern and visually appealing design, improving readability and user engagement.   
+   Integrates Google Fonts and FontAwesome icons for enhanced typography and visual elements. By leveraging these resources, the website achieves a modern and visually appealing design, improving readability and user engagement.
 
 ## How to Use[Casio]
 
@@ -64,7 +51,12 @@ To get started with this project, ensure you have Sass installed. If not, you ca
 
 - ```bash
   npm install -g sass
- 
+  ```
+
+## Desktop view
+
+<img src="./casio/desktopview.png" alt="">
+<img src="./figmapro/src/desk1.png" alt="">
 
 ## Contributors
 
@@ -73,11 +65,10 @@ To get started with this project, ensure you have Sass installed. If not, you ca
 - [Alfaj mallick](https://github.com/alfaj7)
 - [Krishna More](https://github.com/krishnadesh4466)
 - [Shreya Kushwaha](https://github.com/shreya-kushwaha40)
-  
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 
 ## Acknowledgments
 
