@@ -3,8 +3,11 @@
 Casio G-Shock watches at their official website. Explore robust timepieces crafted for adventure, integrating advanced technology and contemporary designs.The design is crafted using HTML, CSS,Sass and Bootstrap, with a focus on responsiveness and usability.
 
 ### Deployed Link
-
+Casio:
 [Live Demo](https://shimmering-hummingbird-825f31.netlify.app/)
+
+Figma:
+[Live Demo](https://remarkable-pothos-14578b.netlify.app/)
 
 ## Features
 
@@ -56,7 +59,6 @@ To get started with this project, ensure you have Sass installed. If not, you ca
 ## Desktop view
 
 <img src="./casio/desktopview.png" alt="">
-<img src="./figmapro/src/desk1.png" alt="">
 
 ## Contributors
 
@@ -65,10 +67,6 @@ To get started with this project, ensure you have Sass installed. If not, you ca
 - [Alfaj mallick](https://github.com/alfaj7)
 - [Krishna More](https://github.com/krishnadesh4466)
 - [Shreya Kushwaha](https://github.com/shreya-kushwaha40)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
